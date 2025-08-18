@@ -45,6 +45,8 @@ git checkout -b web origin/web
 ```
 ---
 ## 3.  Ajouter vos modifications
+
+```bash
 ## Vérifier les fichiers modifiés
 cmd: git status
 ---
@@ -56,6 +58,8 @@ cmd: git commit -m "Ajout de la fonctionnalité X"
 
 ## Envoyer sur la branche distante
 cmd: git push origin <nom_de_votre_branche>
+
+```
 ---
 # 4. Rappel important
 ✅ Chaque branche doit contenir un README spécifique avec :
