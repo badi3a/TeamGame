@@ -34,28 +34,30 @@ git checkout -b <nom_de_votre_branche> origin/<nom_de_votre_branche>
 ## Exemples :  
 
 ### Pour Louay (mobile) :
-```bash
+
 git checkout -b application-mobile origin/application-mobile
 ### Pour Zouhour & Ahmed (backend) :
-```bash
+
 git checkout -b backend origin/backend
 ### Pour Maram (web) :
 
 git checkout -b web origin/web
-# Ajouter vos modifications
+```
+---
+## 3.  Ajouter vos modifications
 ## Vérifier les fichiers modifiés
-git status
-
+cmd: git status
+---
 ##Ajouter vos changements
-git add .
+cmd: git add .
 
 ## Sauvegarder vos modifications avec un message clair
-git commit -m "Ajout de la fonctionnalité X"
+cmd: git commit -m "Ajout de la fonctionnalité X"
 
 ## Envoyer sur la branche distante
-git push origin <nom_de_votre_branche>
-
-#4. Rappel important
+cmd: git push origin <nom_de_votre_branche>
+---
+# 4. Rappel important
 ✅ Chaque branche doit contenir un README spécifique avec :
 
 Les bibliothèques utilisées
