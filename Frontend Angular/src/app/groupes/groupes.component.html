@@ -1,0 +1,101 @@
+<div class="container">
+  <h2>Clustering Groups</h2>
+  <div class="form-inline">
+    <input type="file" (change)="onFileSelected($event)" accept=".csv" />
+    <label>
+      <input type="number" [(ngModel)]="groupSize" min="1" />
+    </label>
+    <label>
+      <input type="text" [(ngModel)]="newClassName" placeholder="Enter class name" />
+    </label>
+    <button (click)="onSubmit()" [disabled]="loading">Start Clustering</button>
+  </div>
+  <p *ngIf="errorMsg" style="color:red;">{{ errorMsg }}</p>
+  <div *ngIf="displayGroups.length > 0" class="accordion-container">
+    <div *ngFor="let group of displayGroups" class="accordion-item">
+      <div class="accordion-header" (click)="toggleGroup(group)">
+        <strong> Group {{ group.name }}</strong>
+        <span>{{ group.students.length }} student(s)</span>
+        <span>{{ group.expanded ? '▲' : '▼' }}</span>
+      </div>
+      <div *ngIf="group.expanded">
+        <table>
+          <thead>
+            <tr>
+              <th *ngFor="let key of ['first_name','last_name','gender','age','nationality','hard_skills','soft_skills','teamwork','creativity','class','group','heterogeneous_group']">
+                {{ key }}
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let student of group.students">
+              <td>{{ student.first_name }}</td>
+              <td>{{ student.last_name }}</td>
+              <td>{{ student.gender }}</td>
+              <td>{{ student.age }}</td>
+              <td>{{ student.nationality }}</td>
+              <td>{{ student.hard_skills }}</td>
+              <td>{{ student.soft_skills }}</td>
+              <td>{{ student.teamwork }}</td>
+              <td>{{ student.creativity }}</td>
+              <td>{{ student.class }}</td>
+              <td>{{ student.group }}</td>
+              <td>{{ student.heterogeneous_group }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr>
+<div class="container">
+  <h1>Groups by Class</h1>
+  <h2>📚 Classes</h2>
+  <ul>
+    <li *ngFor="let c of classes" (click)="selectClass(c)"
+        [class.active]="selectedClassFilter === c">
+      {{ c }}
+      <button (click)="toggleClassAccess(c); $event.stopPropagation()">
+        {{ classAccess[c] ? '👁️ Accessible' : '🚫 Not Accessible' }}
+      </button>
+    </li>
+  </ul>
+  <div *ngIf="selectedClassFilter">
+    <h2>👥 Groups of {{ selectedClassFilter }}</h2>
+    <ul>
+      <li *ngFor="let g of getFilteredGroups()" (click)="selectGroup(g)"
+          [class.active]="selectedGroupFilter?.groupName === g.groupName">
+        {{ g.groupName }}
+      </li>
+    </ul>
+  </div>
+  <div *ngIf="selectedGroupFilter">
+    <h3>🧑‍🤝‍🧑 Members of group {{ selectedGroupFilter.groupName }}</h3>
+    
+    <ul>
+      <li *ngFor="let member of selectedGroupFilter.members; let i = index">
+        {{ member }}
+        <button (click)="removeMember(selectedGroupFilter, member)">❌</button>
+      </li>
+    </ul>
+    <input type="text" [(ngModel)]="newMemberName" placeholder="Member name" />
+    <button (click)="addMember(selectedGroupFilter, newMemberName)">➕ Add Member</button>
+
+    <br><br>
+    <button (click)="deleteGroup(selectedGroupFilter.idGroup)">🗑️ Delete this group</button>
+  </div>
+  <div *ngIf="popupMessage && popupConfirmAction" class="popup-backdrop">
+    <div class="popup-content">
+      <p>{{ popupMessage }}</p>
+      <button (click)="confirmPopupYes()">Yes</button>
+      <button (click)="confirmPopupNo()">No</button>
+    </div>
+  </div>
+  <div *ngIf="popupMessage && !popupConfirmAction" class="popup-backdrop">
+    <div class="popup-content">
+      <p>{{ popupMessage }}</p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,64 @@
+<div class="container">
+  <header>
+  <h1>Create Your Account!</h1>
+</header>
+  <div class="section">
+    <form class="create-account" [formGroup]="inscriptionForm" (ngSubmit)="onSubmit()">
+
+<label for="lastname">Last Name:</label>
+<input type="text" id="lastname" formControlName="lastname" placeholder="Enter your last name" required>
+<div *ngIf="inscriptionForm.controls['lastname'].invalid && (inscriptionForm.controls['lastname'].touched  || submitted)" style="color:red">
+  Last name is required
+</div>
+
+<label for="firstname">First Name:</label>
+<input type="text" id="firstname" formControlName="firstname" placeholder="Enter your first name" required>
+<div *ngIf="inscriptionForm.controls['firstname'].invalid && (inscriptionForm.controls['firstname'].touched || submitted)" style="color:red">
+  First name is required
+</div>
+
+<label>Gender:</label>
+<div class="gender-group">
+  <label><input type="radio" id="male" value="Homme" formControlName="sexe" required>Male</label>
+  <label><input type="radio" id="female" value="Femme" formControlName="sexe" required>Female</label>
+</div>
+<div *ngIf="inscriptionForm.controls['sexe'].invalid && (inscriptionForm.controls['sexe'].touched || submitted)" style="color:red">
+  Gender is required
+</div>
+
+<label for="email">Email Address:</label>
+<input type="email" id="email" formControlName="email" placeholder="name@esprit.tn" required>
+<div *ngIf="inscriptionForm.controls['email'].hasError('required') && (inscriptionForm.controls['email'].touched || submitted)" style="color:red">
+  Email is required
+</div>
+<div *ngIf="inscriptionForm.controls['email'].hasError('email') && !inscriptionForm.controls['email'].hasError('required') && (inscriptionForm.controls['email'].touched || submitted)" style="color:red">
+  Email is invalid
+</div>
+
+<label for="password">Password:</label>
+  <input type="password" id="create-account-password" formControlName="password" placeholder="Enter your password" required>
+<div *ngIf="inscriptionForm.controls['password'].hasError('required') && (inscriptionForm.controls['password'].touched || submitted)" style="color:red">
+  Password is required
+</div>
+<div *ngIf="inscriptionForm.controls['password'].hasError('invalidPassword') && (inscriptionForm.controls['password'].touched || submitted)" style="color:red">
+  Password must contain at least 8 characters, including uppercase, lowercase, number and special character.
+</div>
+
+<div class="buttons-group">
+<button 
+  type="submit" 
+  class="btn-create" 
+  (click)="playSound('click')" 
+  [disabled]="isSubmitting">
+  {{ isSubmitting ? 'Creating...' : 'Create My Account' }}
+</button>
+  <button type="button" (click)="onReset()" class="btn-cancel">Annuler</button>
+</div>
+
+   </form>
+
+    <div *ngIf="message" style="color:green; margin-top:10px;">{{ message }}</div>
+    <div *ngIf="error" style="color:red; margin-top:10px;">{{ error }}</div>
+ 
+  </div>
+</div>

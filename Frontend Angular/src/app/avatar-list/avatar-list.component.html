@@ -1,0 +1,173 @@
+<h2>Students by Island</h2>
+<div class="island-grid">
+  <div class="island-card"
+     *ngFor="let islandName of ['Island 1','Island 2','Island 3','Island 4']"
+     (click)="openIslandPopup(islandName)">
+    <h3>{{ getIslandDisplayName(islandName) }}</h3>
+    <img [src]="'assets/images/' + getIslandImageFile(islandName)" alt="{{ islandName }}" class="island-img">
+    <div *ngIf="(islandGroups[islandName] || []).length > 0; else noStudents">
+      <div *ngFor="let avatar of islandGroups[islandName]" class="student-card">
+        <div class="student-header">
+          <img [src]="avatar.image_avatar" alt="Avatar" class="avatar-circle">
+          <div>
+            <strong>{{ avatar.userName }}</strong>
+          </div>
+        </div>
+        <div class="progress-container">
+          <div class="progress-bar">
+<div class="progress-fill" 
+     [style.width.%]="(getProgress(avatar) / 5) * 100"
+     [style.background]="getProgressColor(avatar)">
+</div>
+          </div>
+          <span>{{ getProgress(avatar) }}%</span>
+        </div>
+      </div>
+    </div>
+    <ng-template #noStudents>
+      <p>No students available</p>
+    </ng-template>
+  </div>
+</div>
+<table class="avatar-table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Avatar</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <ng-container *ngFor="let avatar of avatars">
+      <tr>
+        <td>{{ avatar.userName || 'Utilisateur inconnu' }}</td>
+        <td>
+          <img *ngIf="avatar.image_avatar"
+               [src]="avatar.image_avatar"
+               alt="Avatar"
+               class="avatar-img">
+        </td>
+        <td>
+          <button (click)="toggleDetails(avatar)">
+            {{ avatar.showDetails ? 'Hide Scores' : 'Show Scores' }}
+          </button>
+
+          <button (click)="toggleBadges(avatar)">
+            {{ avatar.showBadges ? 'Hide Badges' : 'Show Badges' }}
+          </button>
+        </td>
+      </tr>
+
+      <tr *ngIf="avatar.showDetails">
+        <td colspan="3">
+          <div *ngIf="avatar.scores && avatar.scores.length > 0; else noScore">
+            <table class="score-table">
+              <thead>
+                <tr>
+                  <th>Quiz</th>
+                  <th>Island Position</th>
+                  <th>Category 1</th>
+                  <th>Category 2</th>
+                  <th>Category 3</th>
+                  <th>Category 4</th>
+                  <th>Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let score of avatar.scores">
+                  <td>{{ score.quizName || score.idQuiz }}</td>
+                  <td>{{ score.island_position || 'Non défini' }}</td>
+                  <td>{{ score.scoreCategory1 }}</td>
+                  <td>{{ score.scoreCategory2 }}</td>
+                  <td>{{ score.scoreCategory3 }}</td>
+                  <td>{{ score.scoreCategory4 }}</td>
+                  <td>{{ score.totalScore }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <ng-template #noScore>
+            <p>No scores found.</p>
+          </ng-template>
+        </td>
+      </tr>
+      <tr *ngIf="avatar.showBadges">
+        <td colspan="3">
+          <div *ngIf="getUserBadges(avatar.userName).length > 0; else noBadgeUser">
+            <table class="badge-table">
+              <thead>
+                <tr>
+                 <th>Badge</th>
+<th>Description</th>
+<th>Score</th>
+<th>Date Earned</th>
+<th>Quiz</th>
+<th>Category</th>
+<th>Icon</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let badge of getUserBadges(avatar.userName)">
+                  <td>{{ badge.name }} <span>{{ badge.icon }}</span></td>
+                  <td>{{ badge.description || '-' }}</td>
+                  <td>{{ badge.score }}</td>
+                  <td>{{ badge.earnedAt || '-' }}</td>
+                  <td>{{ badge.quizName || '-' }}</td>
+                  <td>{{ badge.categoryIsland || '-' }}</td>
+                  <td>
+                    <span *ngIf="badge.color" 
+                          [style.background]="badge.color"
+                          class="badge-icon">
+                      {{ badge.icon }}
+                    </span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <ng-template #noBadgeUser>
+            <p>No badges found for this student.</p>
+          </ng-template>
+        </td>
+      </tr>
+    </ng-container>
+  </tbody>
+</table>
+<div class="popup-overlay" *ngIf="selectedIslandName">
+  <div class="popup-content">
+    <h2>{{ selectedIslandName }}</h2>
+    <button class="close-btn" (click)="closeIslandPopup()">✖</button>
+
+    <div *ngIf="selectedIslandStudents.length > 0; else noStudentPopup" class="popup-students-grid">
+      <div *ngFor="let avatar of selectedIslandStudents"
+           class="popup-student-card"
+           (click)="openStudentPopup(avatar)">
+        <img [src]="avatar.image_avatar" alt="Avatar" class="avatar-circle">
+        <strong>{{ avatar.userName }}</strong>
+        <span>{{ getProgress(avatar) }}%</span>
+      </div>
+    </div>
+
+    <ng-template #noStudentPopup>
+      <p>No students found on this island.</p>
+    </ng-template>
+  </div>
+</div>
+<div class="popup-overlay" *ngIf="selectedStudent">
+  <div class="popup-content">
+    <h2>{{ selectedStudent.userName }} - Badges</h2>
+    <button class="close-btn" (click)="closeStudentPopup()">✖</button>
+
+   <div *ngIf="getUserBadges(selectedStudent.userName).length > 0; else noBadgeForStudent" class="badge-icon-grid">
+  <span *ngFor="let badge of getUserBadges(selectedStudent.userName)"
+        class="badge-icon"
+        [style.background]="badge.color"
+        [title]="badge.name">
+    {{ badge.icon }}
+  </span>
+</div>
+    <ng-template #noBadgeForStudent>
+      <p>No badges found for this student.</p>
+    </ng-template>
+  </div>
+</div>

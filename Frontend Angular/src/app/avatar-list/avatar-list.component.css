@@ -1,0 +1,300 @@
+/* ================== Conteneur ================== */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+  background: #fff;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  border: 2px solid #f5f5f5;
+}
+
+/* ================== Titres ================== */
+h2 {
+  color: #000;
+  margin-bottom: 1rem;
+  border-left: 5px solid #d62828;
+  padding-left: 10px;
+  font-weight: 700;
+}
+
+h3 {
+  margin-top: 1rem;
+  color: #444;
+}
+
+/* ================== Boutons ================== */
+button {
+  background: linear-gradient(90deg, #e63946, #6d0202);
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(214, 40, 40, 0.4);
+    margin-right: 10px; /* espace à droite du bouton */
+
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(214, 40, 40, 0.5);
+}
+
+/* ================== HR ================== */
+hr {
+  margin: 2rem 0;
+  border: none;
+  border-top: 2px dashed #ddd;
+}
+
+/* ================== Island Grid ================== */
+.island-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.island-card {
+  background: #fafafa;
+  border: 1px solid #e5e5e5;
+  border-radius: 16px;
+  padding: 1rem;
+  text-align: center;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.island-card:hover {
+  background: #fff5f5;
+  box-shadow: 0 4px 12px rgba(214, 40, 40, 0.15);
+}
+
+.island-img {
+  width: 100%;
+  max-height: 150px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin: 0.8rem 0;
+}
+
+/* ================== Students ================== */
+.student-card {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 0.8rem;
+  margin: 0.6rem 0;
+}
+
+.student-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.progress-container {
+  margin-top: 0.6rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.progress-bar {
+  flex: 1;
+  height: 8px;
+  background: #eee;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: 5px;
+}
+
+/* ================== Tables ================== */
+.avatar-table,
+.score-table,
+.badge-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.5rem;
+}
+
+.avatar-table th,
+.score-table th,
+.badge-table th,
+.avatar-table td,
+.score-table td,
+.badge-table td {
+  border: 1px solid #ddd;
+  padding: 0.6rem;
+}
+
+.avatar-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #d62828; /* 👈 cercle rouge */
+
+}
+
+/* ================== Badge Icons ================== */
+.badge-icon {
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 50%;
+  color: #fff;
+  font-weight: bold;
+  margin: 2px;
+}
+
+/* ================== Popups ================== */
+.popup-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+
+.popup-content {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.25);
+  max-width: 600px;
+  width: 100%;
+  position: relative;
+}
+
+.popup-students-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.popup-student-card:hover {
+  background: #fff5f5;
+  box-shadow: 0 4px 12px rgba(214, 40, 40, 0.15);
+}
+
+.badge-icon-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 1rem;
+}
+
+/* ================== Close Button ================== */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: black; /* 👈 couleur noir */
+}
+
+/* ================== Responsive ================== */
+@media (max-width: 768px) {
+  .island-grid {
+    grid-template-columns: 1fr;
+  }
+  .popup-content {
+    max-width: 95%;
+  }
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 90%;
+  max-height: 90vh; /* Empêche de dépasser l'écran */
+  overflow-y: auto; /* Scroll si trop haut */
+  box-sizing: border-box;
+}
+
+
+.avatar-circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 6px;
+  border: 2px solid #d62828; /* 👈 cercle rouge */
+}
+
+.popup-student-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  height: 140px; /* hauteur fixe pour alignement */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* centrage vertical */
+  align-items: center; /* centrage horizontal */
+  box-sizing: border-box;
+}
+
+
+.popup-student-card strong {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 4px;
+  text-align: center;
+  word-wrap: break-word; /* coupe noms longs */
+  max-width: 100%;
+}
+
+.popup-student-card span {
+  font-size: 13px;
+  color: #555;
+}
+.badge-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 10px;
+}
+
+.badge-card {
+  background: #f8f8f8;
+  border-radius: 8px;
+  padding: 8px;
+  text-align: center;
+}
+
+.badge-icon {
+  display: inline-block;
+  padding: 8px;
+  border-radius: 50%;
+  font-size: 18px;
+  color: white;
+}

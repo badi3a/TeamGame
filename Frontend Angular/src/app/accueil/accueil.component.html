@@ -1,0 +1,61 @@
+<main class="accueil p-6 bg-gray-100 min-h-screen">
+  <h1 class="welcome-title text-3xl font-bold text-gray-800 mb-2">Welcome back, {{ userName }} 👋</h1>
+  <p class="subtitle text-gray-600 mb-6">Here's a quick overview of your teaching activity</p>
+
+  <section class="cards grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+    <div class="card green bg-green-100 p-4 rounded-lg shadow flex items-center">
+      <i class="fas fa-question-circle text-green-500 text-2xl mr-4"></i>
+      <div>
+        <p class="text-gray-700">Your Pending Quizzes</p>
+        <h3 *ngIf="pendingQuizzesCount !== null" class="text-2xl font-semibold text-green-700">{{ pendingQuizzesCount }}</h3>
+        <p *ngIf="pendingQuizzesCount === null" class="flex items-center text-gray-500">
+          Loading...
+        </p>
+      </div>
+    </div>
+    <div class="card blue bg-blue-100 p-4 rounded-lg shadow flex items-center">
+      <i class="fas fa-check-circle text-blue-500 text-2xl mr-4"></i>
+      <div>
+        <p class="text-gray-700">Your Completed Quizzes</p>
+        <h3 *ngIf="completedQuizzesCount !== null" class="text-2xl font-semibold text-blue-700">{{ completedQuizzesCount }}</h3>
+        <p *ngIf="completedQuizzesCount === null" class="flex items-center text-gray-500">
+          Loading...
+        </p>
+      </div>
+    </div>
+  
+  </section>
+
+  <section class="widgets grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+    <div class="widget orange bg-orange-100 p-4 rounded-lg shadow">
+      <h3 class="text-xl font-bold text-gray-800 mb-2">Question Distribution by Category</h3>
+      <div id="category-pie-chart" class="w-full h-[256px] relative">
+        <div *ngIf="!categoryStats" class="absolute inset-0 flex items-center justify-center text-gray-500">...</div>
+        <div *ngIf="categoryStats && categoryStats.length === 0" class="absolute inset-0 flex items-center justify-center text-gray-500">No data available</div>
+      </div>
+    </div>
+    <div class="widget green bg-green-100 p-4 rounded-lg shadow">
+      <h3 class="text-xl font-bold text-gray-800 mb-2">Gender Distribution</h3>
+      
+      <canvas id="genderChart" class="w-full h-[256px]" *ngIf="genderStats"></canvas>
+      <div id="gender_legend" class="py-2 text-left text-sm" *ngIf="genderStats"></div>
+      <p *ngIf="!genderStats" class="flex items-center text-gray-500">
+        Loading...
+      </p>
+    </div>
+  </section>
+
+  <div *ngIf="error" class="error text-red-600 mt-4 p-4 bg-red-50 rounded-lg shadow">{{ error }}</div>
+
+<section class="activity mb-6">
+  <h2 class="text-2xl font-bold text-gray-800 mb-4">Recent Activity</h2>
+  <ul class="list-disc pl-5">
+    <li *ngFor="let quiz of completedQuizNames" class="flex items-center mb-2">
+      <i class="fas fa-check-circle text-blue-500 mr-2"></i> Completed quiz "{{ quiz }}"
+    </li>
+    <li *ngIf="completedQuizNames.length === 0" class="flex items-center text-gray-500">
+      <i class="fas fa-info-circle text-gray-500 mr-2"></i> No completed quizzes yet
+    </li>
+  </ul>
+</section>
+</main>

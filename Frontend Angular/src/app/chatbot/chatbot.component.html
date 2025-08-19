@@ -1,0 +1,16 @@
+<div class="chat-container">
+  <h2 class="chat-title">Ask Chat</h2>
+
+  <div *ngFor="let msg of messages" class="message" [ngClass]="msg.role">
+    <strong>{{ msg.role === 'user' ? 'You' : 'Assistant' }}:</strong>
+    <span>{{ msg.text }}</span>
+  </div>
+
+  <form (ngSubmit)="sendMessage()" class="chat-form">
+    <input [(ngModel)]="userInput" 
+           name="message" 
+           placeholder="Please enter your question..." 
+           required />
+    <button type="submit">Submit</button>
+  </form>
+</div>

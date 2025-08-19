@@ -1,0 +1,97 @@
+<div class="container">
+
+  <h2>Import Students (CSV)</h2>
+  <div class="form-grid">
+    <input type="file" (change)="onFileSelected($event)" class="file-input" />
+    <input
+      type="text"
+      placeholder="Class name"
+      [(ngModel)]="selectedClass"
+    />
+    <button (click)="onImport()">Import</button>
+  </div>
+  <p class="message">{{ uploadMessage }}</p>
+  <hr />
+
+<h2> Add New Student</h2>
+<div class="form-grid">
+  <input type="text" [(ngModel)]="newStudent.firstname" placeholder="Firstname" />
+  <input type="text" [(ngModel)]="newStudent.lastname" placeholder="Lastname" />
+  <input type="text" [(ngModel)]="newStudent.email" placeholder="Email" />
+  <input type="text" [(ngModel)]="newStudent.nationalite" placeholder="Nationality" />
+  <input type="date" [(ngModel)]="newStudent.dateOfBirth" placeholder="Date of Birth" />
+  <select [(ngModel)]="newStudent.sexe">
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+  </select>
+  <select [(ngModel)]="newStudent.classe">
+    <option value="" disabled selected>Select Class </option>
+    <option *ngFor="let classe of classes" [value]="classe">{{ classe }}</option>
+  </select>
+  <button (click)="addStudent()" [disabled]="!newStudent.classe">Add Student</button>
+</div>
+<hr />
+
+  <h2>Available Classes</h2>
+  <ul class="class-list">
+    <li *ngFor="let classe of classes" class="category-card">
+      <div class="category-header">
+        <span>{{ classe }}</span>
+        <div class="category-actions">
+          <button (click)="showStudents(classe)">View Details</button>
+          <button (click)="deleteClass(classe)">Delete Class</button>
+        </div>
+      </div>
+    </li>
+  </ul>
+  <hr />
+
+  <div *ngIf="students.length > 0">
+    <h3>👨‍🎓 Students in class "{{ displayedClass }}"</h3>
+    <ul class="student-list">
+      <li *ngFor="let student of students; let i = index" class="subcategory-item">
+        <div *ngIf="editIndex !== i">
+          <strong>{{ student.firstname }} {{ student.lastname }}</strong><br />
+          <small>Email:</small> {{ student.email }} <br />
+          <small>Gender:</small> {{ student.sexe }} <br />
+          <small>Nationality:</small> {{ student.nationalite }} <br />
+          <small>Class:</small> {{ student.classe }} <br />
+          <small>Date of Birth:</small> {{ student.dateOfBirth }} <br />
+          <button (click)="startEdit(i)">✏️ Edit</button>
+          <button (click)="deleteStudent(student.email)">🗑️ Delete</button>
+        </div>
+        <div *ngIf="editIndex === i" class="form-grid">
+          <input [(ngModel)]="editStudent.firstname" placeholder="Firstname" />
+          <input [(ngModel)]="editStudent.lastname" placeholder="Lastname" />
+          <input [(ngModel)]="editStudent.nationalite" placeholder="Nationality" />
+          <input [(ngModel)]="editStudent.classe" placeholder="Class" />
+          <input type="date" [(ngModel)]="editStudent.dateOfBirth" placeholder="Date of Birth" />
+          <select [(ngModel)]="editStudent.sexe">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+          <button (click)="saveEdit()">💾 Save</button>
+        </div>
+      </li>
+    </ul>
+  </div>
+ <!-- ✅ Popup personnalisé -->
+<div *ngIf="popupMessage" class="popup-backdrop">
+  <div class="popup">
+    <p>{{ popupMessage }}</p>
+
+    <!-- Si popupConfirmAction est défini = popup de confirmation -->
+    <div *ngIf="popupConfirmAction">
+      <button (click)="popupConfirmAction()">Yes</button>
+      <button (click)="popupMessage = null">No</button>
+    </div>
+
+    <!-- Sinon, simple message (toast) -->
+    <div *ngIf="!popupConfirmAction">
+      <button (click)="popupMessage = null">Close</button>
+    </div>
+  </div>
+</div>
+
+
+</div>

@@ -1,0 +1,205 @@
+<div class="container">
+  <section class="categories-section">
+    <h2>Category Management</h2>
+    <div class="add-category">
+      <input type="text" [(ngModel)]="newCategoryIsland" placeholder="New category (island)" />
+      <button (click)="createCategory()">Add Category</button>
+    </div>
+    <div *ngFor="let cat of categories" class="category-card">
+      <div class="category-header">
+        <span>{{ cat.island }}</span>
+        <div class="category-actions">
+          <button (click)="deleteCategory(cat.idCategory!)">🗑️</button>
+          <button (click)="toggleSubcategories(cat.idCategory!)">
+            {{ selectedCategoryId === cat.idCategory ? 'Hide' : 'Show' }} subcategories
+          </button>
+        </div>
+      </div>
+      <div *ngIf="selectedCategoryId === cat.idCategory" class="subcategory-section">
+        <ul>
+          <li *ngFor="let sub of cat.subcategories" class="subcategory-item">
+            <span *ngIf="!editSubcategory[cat.idCategory!] || editSubcategory[cat.idCategory!].old !== sub">
+              {{ sub }}
+              <button (click)="startEditSubcategory(cat.idCategory!, sub)">✏️</button>
+              <button (click)="deleteSubcategory(cat.idCategory!, sub)">❌</button>
+            </span>
+            <span *ngIf="editSubcategory[cat.idCategory!] && editSubcategory[cat.idCategory!].old === sub">
+              <input [(ngModel)]="editSubcategory[cat.idCategory!].new" />
+              <button (click)="saveEditSubcategory(cat.idCategory!)">💾</button>
+              <button (click)="cancelEditSubcategory(cat.idCategory!)">❌</button>
+            </span>
+          </li>
+        </ul>
+        <div class="add-subcategory">
+          <input type="text" [(ngModel)]="newSubcategory[cat.idCategory!]" placeholder="New subcategory" (keyup.enter)="addSubcategory(cat.idCategory!)" />
+          <button (click)="addSubcategory(cat.idCategory!)">Add Subcategory</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr />
+
+  <section class="quiz-section">
+  <h2>{{ editingQuizId ? 'Edit Quiz' : 'Create New Quiz' }}</h2>
+  <form class="quiz-form" (submit)="editingQuizId ? updateQuiz() : createQuiz(); $event.preventDefault()">
+    <div class="form-group">
+    <input class="form-control" id="quizName" type="text" [(ngModel)]="newQuiz.nameQuiz" name="nameQuiz" placeholder="Enter quiz name" required />
+    </div>
+<div class="form-group">
+  <select class="form-control" id="quizCategories" multiple [(ngModel)]="newQuiz.idCategory" name="idCategory" required>
+    <option *ngFor="let cat of categories" [value]="cat.idCategory">{{ cat.island }}</option>
+  </select>
+</div>
+
+<div class="form-group access-code-group">
+  <input class="form-control" id="accessCode" type="text" [(ngModel)]="newQuiz.accessCode" name="accessCode" readonly placeholder="Access code" />
+  <button type="button" (click)="newQuiz.accessCode = generateAccessCode()">🔄</button>
+</div>
+
+<div class="form-group" style="display: flex; align-items: center; gap: 8px;">
+  <input type="checkbox" [(ngModel)]="newQuiz.isAccessible" name="isAccessible" id="isAccessible" />
+  <label for="isAccessible">Accessible</label>
+</div>
+    <div class="form-actions" style="margin-top: 1rem;">
+      <button type="submit" class="btn-primary">{{ editingQuizId ? 'Update' : 'Create New Quiz' }}</button>
+      <button *ngIf="editingQuizId" type="button" (click)="resetForm()" class="btn-cancel">
+        Cancel
+      </button>
+</div>
+</form>
+<div class="quiz-filters" style="display: flex; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.5rem;">
+  <input type="text" [(ngModel)]="filterName" placeholder="🔍 Filter by name" class="form-control" />
+  <input type="text" [(ngModel)]="filterCategory" placeholder="🔍 Filter by category" class="form-control" />
+  <select [(ngModel)]="filterAccessible" class="form-control">
+    <option value="">-- Accessibility --</option>
+    <option [value]="true">Accessible</option>
+    <option [value]="false">Inaccessible </option>
+  </select>
+  <input type="date" [(ngModel)]="filterDate" class="form-control" placeholder="📅 Filter by date" />
+</div>
+<div class="quiz-cards-container">
+<div class="quiz-card" *ngFor="let quiz of filteredQuizzes()">
+      <h3>{{ quiz.nameQuiz }}</h3>
+      <p><strong>Categories:</strong> {{ getCategoryNames(quiz.idCategory) }}</p>
+      <p><strong>Date:</strong> {{ quiz.dateCreation | date: 'short' }}</p>
+      <p><strong>Accessible:</strong> {{ quiz.isAccessible ? 'Yes' : 'No' }}</p>
+      <p><strong>Access Code:</strong> {{ quiz.accessCode }}</p>
+      <div class="quiz-card-actions">
+        <button (click)="toggleAccessibility(quiz)">
+  {{ quiz.isAccessible ? 'Set as Inaccessible' : 'Set as Accessible' }}
+</button>
+        <button (click)="editQuiz(quiz)">✏️</button>
+        <button (click)="deleteQuiz(quiz.idQuiz!)">🗑️</button>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<hr />
+
+  <section>
+    <h2>Question Management</h2>
+
+    <div class="form-grid">
+      <input type="text" [(ngModel)]="newQuestion.content" placeholder="Content" />
+      <select [(ngModel)]="newQuestion.idQuiz" name="idQuiz" required>
+        <option value="" disabled selected>Select a quiz</option>
+        <option *ngFor="let quiz of quizzes" [value]="quiz.idQuiz">{{ quiz.nameQuiz }}</option>
+      </select>
+      <select [(ngModel)]="newQuestion.idCategory">
+        <option value="">Select a category</option>
+        <option *ngFor="let cat of categories" [value]="cat.idCategory">{{ cat.island }}</option>
+      </select>
+    </div>
+
+    <div class="question-actions">
+      <button *ngIf="!editingQuestionId" (click)="addQuestion()">Add</button>
+      <button *ngIf="editingQuestionId" (click)="updateQuestion()">Update</button>
+      <button *ngIf="editingQuestionId" (click)="cancelEdit()">Cancel</button>
+    </div>
+
+    <!-- IA : Génération intelligente -->
+    <div class="ai-generation-section">
+      <h3>🤖 AI Question Generation</h3>
+
+      <div class="ai-generation-buttons">
+        <button (click)="aiMode = 'one'">🧠 Generate 1</button>
+        <button (click)="aiMode = 'category'">📚 By Category</button>
+        <button (click)="aiMode = 'full'">🧪 Full Quiz</button>
+        <button *ngIf="aiMode" class="cancel-btn" (click)="aiMode = null">❌ Cancel</button>
+      </div>
+
+      <div class="ai-generation-form" *ngIf="aiMode">
+        <select [(ngModel)]="newQuestion.idQuiz">
+          <option value="" disabled selected>Choose a quiz</option>
+          <option *ngFor="let quiz of quizzes" [value]="quiz.idQuiz">{{ quiz.nameQuiz }}</option>
+        </select>
+
+        <select *ngIf="aiMode !== 'full'" [(ngModel)]="newQuestion.idCategory">
+          <option value="" disabled selected>Choose a category</option>
+          <option *ngFor="let cat of categories" [value]="cat.idCategory">{{ cat.island }}</option>
+        </select>
+
+        <input *ngIf="aiMode !== 'one'" type="number" [(ngModel)]="targetYear" placeholder="Level (e.g., 1)" />
+        <input *ngIf="aiMode !== 'one'" type="number" [(ngModel)]="totalQuestions" placeholder="Number of questions" min="1" max="10" />
+      </div>
+
+      <div class="ai-generation-buttons" *ngIf="aiMode">
+        <button *ngIf="aiMode === 'one'" (click)="generateAIQuestion()">Generate 1</button>
+        <button *ngIf="aiMode === 'category'" (click)="generateCategoryQuestions()">By Category</button>
+        <button *ngIf="aiMode === 'full'" (click)="generateFullQuiz()">Full Quiz</button>
+      </div>
+    </div>
+
+    <!-- Recherche -->
+    <section>
+      <h3> Search Questions</h3>
+      <div class="form-grid">
+        <input type="text" [(ngModel)]="keyword" placeholder="Keyword..." />
+        <button (click)="searchQuestions()">Search</button>
+      </div>
+    </section>
+<div class="question-filters" style="display: flex; gap: 1rem; margin: 1.5rem 0;">
+  <input type="text" [(ngModel)]="filterQuestionQuiz" placeholder="🔍 Filter by quiz name" class="form-control" />
+  <input type="text" [(ngModel)]="filterQuestionCategory" placeholder="🔍 Filter by category" class="form-control" />
+</div>
+
+    <!-- Liste questions -->
+    <div class="question-cards-container">
+<div class="question-card" *ngFor="let q of filteredQuestions()">
+    <p><strong>📝 Question:</strong> {{ q.content }}</p>
+    <p><strong>📚 Quiz:</strong> {{ getQuizName(q.idQuiz) }}</p>
+    <p><strong>📁 Category:</strong> {{ getCategoryName(q.idCategory) }}</p>
+    
+    <div class="question-card-actions">
+      <button (click)="editQuestion(q)">✏️ Edit</button>
+      <button (click)="deleteQuestion(q.idQuestion!)">🗑️ Delete</button>
+    </div>
+  </div>
+</div>
+
+  </section>
+<!-- ✅ MODAL POPUP MESSAGE -->
+<div class="modal-overlay" *ngIf="popupMessage">
+  <div class="modal-content">
+    <button class="close-btn" (click)="popupMessage = null">×</button>
+    <p>{{ popupMessage }}</p>
+  </div>
+</div>
+<!-- ✅ POPUP MODAL POUR MESSAGE OU CONFIRMATION -->
+<div class="modal-overlay" *ngIf="popupMessage">
+  <div class="modal-content">
+    <button class="close-btn" (click)="popupMessage = null; popupConfirmAction = null">×</button>
+    <p>{{ popupMessage }}</p>
+
+    <!-- ✅ Si action de confirmation, afficher les boutons -->
+    <div *ngIf="popupConfirmAction" style="margin-top: 1rem;">
+      <button (click)="popupConfirmAction(); popupMessage = null">Yes</button>
+      <button (click)="popupMessage = null; popupConfirmAction = null">No</button>
+    </div>
+  </div>
+</div>
+
+</div>

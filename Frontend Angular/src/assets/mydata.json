@@ -1,0 +1,135 @@
+
+[
+  {
+    "question": "Quel est l’objectif principal du module PIDEV ?",
+    "answer": "Développer un projet d’apprentissage multidisciplinaire en mettant en pratique les concepts vus dans les modules comme GL, base de données, Java, Symfony, etc., avec un travail en groupe et des livrables en français."
+  },
+  {
+    "question": "Combien de crédits ECTS le module PIDEV apporte-t-il ?",
+    "answer": "Le module PIDEV donne 7 crédits ECTS."
+  },
+  {
+    "question": "Quels sont les objectifs du sprint Java ?",
+    "answer": "Créer des interfaces graphiques avec JavaFX, comprendre et exploiter JDBC avec MySQL, utiliser le patron de conception Singleton et manipuler les données via Java."
+  },
+  {
+    "question": "Quels sont les objectifs du sprint Web ?",
+    "answer": "Développer une application web Symfony 6.4 respectant le modèle MVC, organiser la couche métier en OO, utiliser Doctrine, intégrer des templates Twig, gérer des formulaires, utiliser des bundles/APIs, et déployer l'application dans une architecture distribuée."
+  },
+  {
+    "question": "Comment doit être déployée l'application web ?",
+    "answer": "Sur plusieurs ordinateurs en réseau avec séparation entre la base de données, l'application web (Backend + Frontend), et éventuellement un client web."
+  },
+  {
+    "question": "Quels outils de communication doivent être utilisés ?",
+    "answer": "GitHub Project board ou Trello sont requis comme outils de communication et de suivi."
+  },
+  {
+    "question": "Quelles sont les contraintes techniques importantes à respecter ?",
+    "answer": "Chaque module doit avoir au moins deux entités et une relation, une seule base de données partagée, format image URL, pas de bundle FOSUser ni adminBundle, deux machines minimum pour le déploiement (BDD + serveur)."
+  },
+  {
+    "question": "Comment est calculée la note d’équipe ?",
+    "answer": "15% Sprint 0 GL + 15% soft skills + 20% intégration Java + 20% intégration Web + 15% architecture distribuée + 15% intégration finale Web/Java."
+  },
+  {
+    "question": "Comment est calculée la note individuelle ?",
+    "answer": "40% moyenne suivis Java + 40% moyenne suivis Web + 10% sprint1 GL + 10% sprint2 GL."
+  },
+  {
+    "question": "Quelles sont les règles spécifiques si la note individuelle est faible ?",
+    "answer": "Si note individuelle < 10, la note d’équipe est ignorée. Si l'écart entre note individuelle et d’équipe > 3, pondération à 60% individuelle / 40% équipe."
+  },
+  {
+    "question": "Le projet est-il rattrapable ?",
+    "answer": "Non, les projets sont non rattrapables. Seuls les étudiants ayant une moyenne PI entre 9.5 et 10 peuvent être rachetés si tous les tuteurs sont d’accord."
+  },
+  {
+    "question": "Qu’est-ce que le Bal des projets ?",
+    "answer": "Un événement annuel à Esprit valorisant les meilleurs projets académiques réalisés par les étudiants, toutes filières et tous niveaux confondus."
+  },
+  {
+    "question": "Quel est l'objectif du projet CCCF3 ?",
+    "answer": "L'objectif du projet CCCF3 est de créer un musée virtuel en lien avec les Objectifs de Développement Durable (ODD), en utilisant une interface numérique interactive, afin de sensibiliser le public aux enjeux environnementaux et sociétaux."
+  },
+  {
+    "question": "Combien de temps dure le projet CCCF3 et comment est-il réparti ?",
+    "answer": "Le projet CCCF3 s'étale sur 10 semaines, avec une évaluation finale prévue lors de la 11ème semaine. Chaque semaine est consacrée à une étape précise, de la présentation initiale à la validation finale de l’interface virtuelle."
+  },
+  {
+    "question": "Quelles sont les premières tâches à réaliser dans le projet CCCF3 ?",
+    "answer": "Les premières tâches du projet CCCF3 sont : la présentation du projet et du cahier des charges, la formation des groupes, un brainstorming autour des ODD, la collecte d’informations pertinentes, et le choix de deux ODD ou plus à traiter."
+  },
+  {
+    "question": "Quel type de rendu final est attendu pour le projet CCCF3 ?",
+    "answer": "Le rendu final du projet CCCF3 doit prendre la forme d’une présentation numérique immersive via une interface virtuelle (site web, plateforme, logiciel VR), incluant une visite guidée et une présentation orale argumentée par tous les membres du groupe."
+  },
+  {
+    "question": "Quels types de contenus doivent être créés dans le cadre du projet CCCF3 ?",
+    "answer": "Dans le cadre du projet CCCF3, les groupes doivent créer des contenus multimédias variés : textes informatifs, guides, vidéos, tableaux, animations, infographies, quiz et évènements."
+  },
+  {
+    "question": "Quelles interfaces sont recommandées pour le développement du musée virtuel du projet CCCF3 ?",
+    "answer": "Pour le projet CCCF3, les interfaces recommandées sont : Turbosquid, Artsteps, Spacial, Frame VR et Sketchfab. Il est important de tester ces outils dès les premières semaines."
+  },
+  {
+    "question": "Quels sont les critères d’évaluation du projet CCCF3 ?",
+    "answer": "Le projet CCCF3 est évalué sur plusieurs critères : la conduite du projet (organisation, respect des délais…), la qualité de la présentation collective, la maîtrise de l’oral, l’argumentation détaillée, l’originalité du traitement, et l’intégration d’éléments 3D qui renforcent l’expérience visuelle."
+  },
+  {
+    "question": "Quel est le pourcentage de la note finale du module représenté par le projet CCCF3 ?",
+    "answer": "Le projet CCCF3 compte pour 30 % de la note finale du module."
+  },
+  {
+    "question": "Comment est calculée la note finale du projet CCCF3 ?",
+    "answer": "La note finale du projet CCCF3 est une moyenne entre une note collective (travail du groupe) et une note individuelle (implication personnelle de chaque étudiant)."
+  },
+  {
+    "question": "Quelles consignes sont à respecter concernant le choix du logiciel de création dans le projet CCCF3 ?",
+    "answer": "Dans le cadre du projet CCCF3, le choix du logiciel de création doit être finalisé au plus tard à la semaine 4. Aucun retard lié au choix de l’outil ne sera accepté, et des tests doivent être réalisés dès le début du projet."
+  },
+  {
+    "question": "Quel est l’objectif principal du projet CCCA3 ?",
+    "answer": "L’objectif du projet CCCA3 est d’amener les étudiants à créer leur propre ONG locale en Tunisie, mobilisée autour d’un Objectif de Développement Durable (ODD), afin de contribuer au changement social et au développement durable."
+  },
+  {
+    "question": "Quels types d’organisations les étudiants doivent-ils créer dans le cadre du projet CCCA3 ?",
+    "answer": "Les étudiants doivent créer une ONG, c’est-à-dire une organisation non gouvernementale, indépendante de l’État, à but non lucratif, active dans le domaine social, humanitaire ou environnemental."
+  },
+  {
+    "question": "Quels sont les objectifs d’apprentissage visés par le projet CCCA3 ?",
+    "answer": "Le projet CCCA3 vise à développer chez les étudiants les compétences suivantes : prise de décision, travail en équipe, planification, communication, présentation, intelligence sociale et émotionnelle, et utilisation d’outils d’intelligence artificielle."
+  },
+  {
+    "question": "Quelles sont les étapes principales du projet CCCA3 ?",
+    "answer": "Les étapes principales du projet CCCA3 sont : brainstorming et définition de l’ONG (semaine 3), préparation d’un PPT de présentation, création d’une campagne de sensibilisation graphique (affiches, flyers), puis médiatique (réseaux sociaux, radio, site), et réalisation d’une vidéo animée en IA avec Canva et D-ID."
+  },
+  {
+    "question": "Quels livrables sont attendus pour le projet CCCA3 ?",
+    "answer": "Les livrables incluent : une présentation PowerPoint, une campagne graphique (panneau d’affichage et flyer), une campagne médiatique (page Facebook/Instagram, spot radio, site via mixo.io), un organigramme, un plan d’action communautaire, et une vidéo animée avec voix générée par IA."
+  },
+  {
+    "question": "Quelles sont les consignes de création des ONG dans le cadre du projet CCCA3 ?",
+    "answer": "Les ONG créées dans le projet CCCA3 ne doivent pas avoir de connotation politique, religieuse ou sexuelle. Les causes doivent être concrètes et présentes dans la société tunisienne (exclure les problèmes virtuels comme le cyberharcèlement)."
+  },
+  {
+    "question": "Comment les étudiants doivent-ils présenter leur ONG dans le projet CCCA3 ?",
+    "answer": "Les étudiants doivent présenter leur ONG sous forme de groupe : nom, organigramme du conseil d’administration, SDG choisi, valeurs et mission, actions proposées, groupe cible, campagne de sensibilisation complète, et moyens d’engagement communautaire (dons, bénévolat, partenariats...)."
+  },
+  {
+    "question": "Quelles plateformes numériques les étudiants doivent-ils utiliser dans le projet CCCA3 ?",
+    "answer": "Les étudiants sont encouragés à utiliser des outils d’IA tels que Canva + D-ID pour les vidéos, Mixo.io pour la création de sites en 60 secondes, ainsi que les réseaux sociaux (Facebook, Instagram) et outils de sous-titrage vidéo (Veed.IO, CapCut, Descript...)."
+  },
+  {
+    "question": "Quand les livrables du projet CCCA3 doivent-ils être rendus ?",
+    "answer": "Les principaux rendus sont attendus à la semaine 5 (PPT initial), semaine 7 (campagne graphique), semaine 9 (campagne médiatique), et semaine 11 (présentation finale avec vidéo animée)."
+  },
+  {
+    "question": "Comment le projet CCCA3 est-il évalué ?",
+    "answer": "Le projet CCCA3 est évalué à l’aide de grilles et rubriques prenant en compte la qualité du contenu, l’originalité, la pertinence de la campagne, l’implication des étudiants, l’utilisation des outils numériques et la qualité de la présentation orale et visuelle finale."
+  },
+  {
+   "question": "Quels sont les projets réalisés en 3A ?",
+   "answer": "En 3A, les projets réalisés incluent : le module PIDEV (projet pluridisciplinaire Java + Symfony), le projet CCCF3 (création d’un musée virtuel interactif basé sur les ODD), et le projet CCCA3 (création d’une ONG locale en Tunisie autour d’un ODD avec campagnes de sensibilisation et outils numériques)."
+  }
+]

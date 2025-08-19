@@ -1,0 +1,29 @@
+<div class="container" *ngIf="showSidebar">
+  <aside class="sidebar">
+    <!-- Sidebar fixe -->
+    <h2>QUIZ MASTER</h2>
+    <div class="user-info" *ngIf="userFullName">
+      <img *ngIf="userPhoto" [src]="userPhoto" alt="Photo Profil" class="sidebar-profile-image" />
+      <p class="user-name">{{ userFullName }}</p>
+    </div>
+    <nav>
+      <a routerLink="/accueil"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+      <a routerLink="/profil"><i class="fas fa-user"></i> My Profile</a>
+      <a routerLink="/StudentImport"><i class="fas fa-chalkboard-teacher"></i> My Classes</a>
+      <a routerLink="/quizDashboard"><i class="fas fa-question-circle"></i> My Quizzes</a>
+      <a routerLink="/avatar-list"><i class="fas fa-user-graduate"></i> Students</a>
+      <a routerLink="/Calendar"><i class="fas fa-calendar-alt"></i> Calendar</a>
+      <a routerLink="/Chatbot"><i class="fas fa-robot"></i> Chatbot</a>
+      <a routerLink="/groupes"><i class="fas fa-users"></i> My Groups</a>
+      <a (click)="logout()"><i class="fas fa-sign-out-alt"></i> Log Out</a>
+    </nav>
+  </aside>
+
+  <main class="main-content">
+    <router-outlet></router-outlet>
+  </main>
+</div>
+
+<div *ngIf="!showSidebar">
+  <router-outlet></router-outlet>
+</div>

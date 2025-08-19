@@ -1,0 +1,21 @@
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { AvatarListComponent } from './avatar-list.component';
+
+describe('AvatarListComponent', () => {
+  let component: AvatarListComponent;
+  let fixture: ComponentFixture<AvatarListComponent>;
+
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      declarations: [AvatarListComponent]
+    });
+    fixture = TestBed.createComponent(AvatarListComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});

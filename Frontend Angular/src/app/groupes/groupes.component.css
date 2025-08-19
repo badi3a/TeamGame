@@ -1,0 +1,253 @@
+.container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  border: 1px solid #f3f3f3;
+}
+h1, h2, h3 {
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  border-left: 5px solid #d62828;
+  padding-left: 10px;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+  border-left: 4px solid #d62828;
+  padding-left: 8px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"] {
+  width: 100%;
+  max-width: 220px;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus {
+  border-color: #d62828;
+  box-shadow: 0 0 6px rgba(214, 40, 40, 0.3);
+  outline: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+  font-weight: 500;
+}
+
+/* ==========================
+   Boutons
+========================== */
+button {
+  background-color: #d62828;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0.3rem 0;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+button:hover {
+  background-color: #b71c1c;
+}
+
+button:disabled {
+  background-color: #bbb;
+  cursor: not-allowed;
+}
+
+/* ==========================
+   Listes et items
+========================== */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  background: #fff;
+  border: 1px solid #ddd;
+  margin: 0.3rem 0;
+  padding: 0.6rem;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+li:hover,
+li.active {
+  background-color: #ffecec;
+}
+
+/* ==========================
+   Tableaux
+========================== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+thead {
+  background-color: #fceaea;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 0.6rem;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #fff5f5;
+}
+
+/* ==========================
+   Accordéons
+========================== */
+.accordion-container {
+  margin-top: 1rem;
+  border-radius: 8px;
+}
+
+.accordion-item {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 0.75rem;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+.accordion-header {
+  padding: 1rem;
+  cursor: pointer;
+  background-color: #fceaea;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion-body {
+  padding: 1rem;
+  border-top: 1px solid #eee;
+}
+
+/* ==========================
+   Séparateur horizontal
+========================== */
+hr {
+  margin: 2rem 0;
+  border: none;
+  border-top: 2px dashed #ddd;
+}
+
+/* ==========================
+   Responsive
+========================== */
+@media (max-width: 768px) {
+  input[type="text"], input[type="number"], input[type="file"] {
+    max-width: 100%;
+  }
+
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+
+  thead {
+    display: none;
+  }
+
+  tr {
+    margin-bottom: 1rem;
+  }
+
+  td {
+    border: none;
+    position: relative;
+    padding-left: 50%;
+  }
+
+  td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 45%;
+    padding-left: 0.5rem;
+    font-weight: bold;
+    color: #555;
+  }
+}
+
+/* ==========================
+   Pop-up
+========================== */
+.popup-backdrop {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  display: flex; justify-content: center; align-items: center;
+  z-index: 1000;
+}
+.popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  min-width: 300px;
+}
+.popup-content button {
+  margin: 5px; padding: 5px 15px;
+  border-radius: 5px; border: none; cursor: pointer;
+  background: #d62828;
+  color: white;
+}
+.popup-content button:hover {
+  background-color: #b71c1c;
+}
+
+/* ==========================
+   Formulaire en ligne
+========================== */
+.form-inline {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.form-inline input[type="file"],
+.form-inline input[type="number"],
+.form-inline input[type="text"],
+.form-inline button {
+  margin: 0;
+}
+
+.form-inline label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0;
+}
