@@ -208,6 +208,7 @@ Clé **Service Account Firebase** pour :
   ![Classe 1](assets/classe1.png)
   ![Classe 2](assets/classe2.png)
 
+
 - **My Quizzes** :
   ![Quiz 1](assets/quiz1.png)
   ![Quiz 2](assets/quiz2.png)
@@ -215,6 +216,7 @@ Clé **Service Account Firebase** pour :
   ![Quiz 4](assets/quiz4.png)
   ![Quiz 5](assets/quiz5.png)
   ![Quiz 6](assets/quiz6.png)
+
 
 - **Students** :
   ![Students 1](assets/students1.png)
@@ -224,8 +226,9 @@ Clé **Service Account Firebase** pour :
   ![Students 5](assets/students5.png)
   ![Students 6](assets/students6.png)
 
-- **Calendar** : Calendrier des quiz avec FullCalendar.
+
+- **Calendar** : 
   ![Calendar](assets/calendar.png)
 
-- **Chatbot** : Assistance via FAQ (mydata.json) + IA Gemini.
+- **Chatbot** : 
   ![Chatbot](assets/chat.png)
