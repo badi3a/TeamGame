@@ -1,4 +1,4 @@
-# 🌐 QuizMaster – Branche Web
+# 🌐 TeamGame – Branche Web
 
 ## 📌 Description
 
