@@ -185,52 +185,42 @@ Clé **Service Account Firebase** pour :
 
 ## 🖥️ Interfaces principales
 - **Login** :
-  
-  <img width="693" height="769" alt="image" src="https://github.com/user-attachments/assets/d529cc50-bf42-4ceb-b1cc-9b9bc40417cd" />
+  ![Login](assets/login.png)
 
 - **Mot de passe oublié** :
-  
-  <img width="723" height="390" alt="image" src="https://github.com/user-attachments/assets/f8113e2d-227a-45f0-869a-40d3e17ac584" />
+  ![Mot de passe oublié](assets/password.png)
 
 - **Inscription** : 
-  <img width="941" height="738" alt="image" src="https://github.com/user-attachments/assets/d073060f-a0dd-4e50-979c-e289377175bf" />
+  ![Inscription](assets/Inscription.png)
 
 - **Dashboard** : 
- <img width="940" height="458" alt="image" src="https://github.com/user-attachments/assets/6e401f83-8688-4f69-b2a0-60e72c730b1d" />
+  ![Dashboard](assets/dashboard.png)
 
 - **My Profile** : 
-  <img width="940" height="463" alt="image" src="https://github.com/user-attachments/assets/b7880fd6-ff41-4784-9591-e2937cb6777c" />
+  ![Profil](assets/profil.png)
 
 - **My Classes** : 
-  <img width="940" height="448" alt="image" src="https://github.com/user-attachments/assets/e6d5eb4f-b2fb-4626-8a86-6c811d48a0d3" />
-  <img width="940" height="602" alt="image" src="https://github.com/user-attachments/assets/2278beb9-7b9c-43e5-b1dd-5e643c6fb7b2" />
+  ![Classe 1](assets/classe1.png)
+  ![Classe 2](assets/classe2.png)
 
 - **My Quizzes** :
-  <img width="940" height="452" alt="image" src="https://github.com/user-attachments/assets/13f4bce9-9ea6-481b-9c71-cf96b4757085" />
-  <img width="940" height="833" alt="image" src="https://github.com/user-attachments/assets/56592ec1-2b88-4867-83b7-2cbb5c246a30" />
-  <img width="940" height="377" alt="image" src="https://github.com/user-attachments/assets/92adce21-414b-4d6c-b4da-cf8020254ffb" />
-  <img width="940" height="579" alt="image" src="https://github.com/user-attachments/assets/f0a0f536-ae54-4c56-b615-61b79a7f481a" />
-  <img width="940" height="321" alt="image" src="https://github.com/user-attachments/assets/74dd4ce5-9791-45c5-8ad8-db42dcd137e3" />
-  <img width="940" height="225" alt="image" src="https://github.com/user-attachments/assets/04b01313-2d84-4c6e-898f-960a5f393ca1" />
-  <img width="940" height="221" alt="image" src="https://github.com/user-attachments/assets/ca34d664-dca1-4449-a742-40a3507069df" />
-  <img width="940" height="215" alt="image" src="https://github.com/user-attachments/assets/ac3c3733-87b8-46b7-b167-bc801dc10737" />
-  <img width="940" height="483" alt="image" src="https://github.com/user-attachments/assets/f58b5e28-b673-4dc6-b199-5e102dc87068" />
+  ![Quiz 1](assets/quiz1.png)
+  ![Quiz 2](assets/quiz2.png)
+  ![Quiz 3](assets/quiz3.png)
+  ![Quiz 4](assets/quiz4.png)
+  ![Quiz 5](assets/quiz5.png)
+  ![Quiz 6](assets/quiz6.png)
 
 - **Students** :
-  <img width="940" height="460" alt="image" src="https://github.com/user-attachments/assets/476d871b-aad1-4ff7-923e-82248bca9fa5" />
-  <img width="940" height="460" alt="image" src="https://github.com/user-attachments/assets/ecd8e263-a66c-456b-8885-2ad233156857" />
-  <img width="940" height="458" alt="image" src="https://github.com/user-attachments/assets/559c17e8-8913-4c60-a62a-3f9bd77261c1" />
-  <img width="940" height="469" alt="image" src="https://github.com/user-attachments/assets/8021e52e-5ec1-4169-b066-64aadbdd1284" />
-  <img width="940" height="227" alt="image" src="https://github.com/user-attachments/assets/f368a0a9-75f3-4fa5-bc6e-08a535bc78dc" />
-  <img width="940" height="581" alt="image" src="https://github.com/user-attachments/assets/4411048e-c376-413d-aa94-0f1334dd690f" />
+  ![Students 1](assets/students1.png)
+  ![Students 2](assets/students2.png)
+  ![Students 3](assets/students3.png)
+  ![Students 4](assets/students4.png)
+  ![Students 5](assets/students5.png)
+  ![Students 6](assets/students6.png)
 
 - **Calendar** : Calendrier des quiz avec FullCalendar.
-  <img width="940" height="452" alt="image" src="https://github.com/user-attachments/assets/0f45afeb-aba9-4290-8593-6de546676050" />
+  ![Calendar](assets/calendar.png)
 
 - **Chatbot** : Assistance via FAQ (mydata.json) + IA Gemini.
-  <img width="940" height="452" alt="image" src="https://github.com/user-attachments/assets/20f2bf38-efbf-4c1a-999f-32f9e9ec2fbb" />
-
-- **My Groups** : Gestion des groupes (clustering CSV, ajout/suppression).
-  <img width="940" height="458" alt="image" src="https://github.com/user-attachments/assets/bb4844df-9aba-4069-82ae-fcd3372096af" />
-  <img width="940" height="450" alt="image" src="https://github.com/user-attachments/assets/abacc2d6-fd4d-4f11-abd5-953eae6b4a8e" />
-
+  ![Chatbot](assets/chat.png)
