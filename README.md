@@ -192,13 +192,16 @@ Clé **Service Account Firebase** pour :
   
   ![Mot de passe oublié](assets/password.png)
 
-- **Inscription** : 
+- **Inscription** :
+  
   ![Inscription](assets/Inscription.png)
 
-- **Dashboard** : 
+- **Dashboard** :
+  
   ![Dashboard](assets/dashboard.png)
 
-- **My Profile** : 
+- **My Profile** :
+  
   ![Profil](assets/profil.png)
 
 - **My Classes** : 
