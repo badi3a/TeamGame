@@ -1,0 +1,102 @@
+# =============================================================================
+# BACKEND-SPECIFIC .GITIGNORE
+# =============================================================================
+
+# Firebase credentials and secrets
+firebase_credentials.json
+stage2025-*-firebase-adminsdk-*.json
+*firebase-adminsdk*.json
+
+# Environment files
+.env
+.env.*
+!.env.example
+!.env.template
+
+# =============================================================================
+# PYTHON ENVIRONMENT & DEPENDENCIES
+# =============================================================================
+
+# Conda environment (entire directory structure)
+.conda/
+Scripts/
+Include/
+Lib/
+share/
+pyvenv.cfg
+pip-selfcheck.json
+conda-meta/
+
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Python cache
+.pytest_cache/
+.coverage
+*.cover
+
+# =============================================================================
+# DEVELOPMENT & DEPLOYMENT
+# =============================================================================
+
+# VS Code user-specific settings (keep tasks.json for team)
+.vscode/settings.json
+.vscode/launch.json
+.vscode/extensions.json
+!.vscode/tasks.json
+
+# FastAPI/Uvicorn logs
+*.log
+access.log
+error.log
+uvicorn.log
+
+# Generated/temp files
+*.bak
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Test outputs
+test_outputs/
+test_results/
+
+# Database files (if using SQLite for development)
+*.db
+*.sqlite
+*.sqlite3
+
+# =============================================================================
+# SYSTEM FILES
+# =============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# =============================================================================
+# KEEP THESE IMPORTANT FILES
+# =============================================================================
+
+# Keep essential configuration
+!requirements.txt
+!src/
+!test_generation.py
+!README.md
+!.env.example
+!.env.template
