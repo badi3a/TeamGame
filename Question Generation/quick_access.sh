@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# Quick access script for Quiz System URLs
+
+echo "🎯 Quiz System - Quick Access URLs"
+echo "=================================="
+echo ""
+echo "✅ Working URLs (use these):"
+echo "📋 Main Hub:    http://127.0.0.1:8503"
+echo "🏫 Teacher UI:  http://127.0.0.1:8501"
+echo "🎓 Student UI:  http://127.0.0.1:8502"
+echo "🔧 API Server:  http://127.0.0.1:8000"
+echo ""
+echo "📝 Quick Tests:"
+echo "• API Health: curl http://127.0.0.1:8000/health"
+echo "• Port Status: netstat -tulpn | grep -E ':(8000|8501|8502|8503)'"
+echo ""
+echo "🌐 Open in browser (copy these URLs):"
+echo "127.0.0.1:8503  <- Main Hub (start here)"
+echo "127.0.0.1:8501  <- Teacher Interface"
+echo "127.0.0.1:8502  <- Student Interface"

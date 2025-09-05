@@ -1,0 +1,276 @@
+[
+  {
+    "id": "quiz_1751548229",
+    "title": "Test Quiz",
+    "created_at": "2025-07-03T13:10:29.790995",
+    "data": [
+      {
+        "question_id": "test_001",
+        "dimension": "creativity",
+        "subdimension": "innovation",
+        "question_text": "I often come up with creative solutions to problems",
+        "target_year_level": 12,
+        "response_scale": "1-5"
+      }
+    ]
+  },
+  {
+    "id": "quiz_1751548631",
+    "title": "Test Quiz with 5 Questions",
+    "created_at": "2025-07-03T13:17:11.195861",
+    "data": [
+      {
+        "question_id": "test_001",
+        "dimension": "creativity",
+        "subdimension": "innovation",
+        "question_text": "Test question 1: I demonstrate creative thinking in my work.",
+        "target_year_level": 12,
+        "response_scale": "1-5"
+      },
+      {
+        "question_id": "test_002",
+        "dimension": "creativity",
+        "subdimension": "innovation",
+        "question_text": "Test question 2: I demonstrate creative thinking in my work.",
+        "target_year_level": 12,
+        "response_scale": "1-5"
+      },
+      {
+        "question_id": "test_003",
+        "dimension": "creativity",
+        "subdimension": "innovation",
+        "question_text": "Test question 3: I demonstrate creative thinking in my work.",
+        "target_year_level": 12,
+        "response_scale": "1-5"
+      },
+      {
+        "question_id": "test_004",
+        "dimension": "creativity",
+        "subdimension": "innovation",
+        "question_text": "Test question 4: I demonstrate creative thinking in my work.",
+        "target_year_level": 12,
+        "response_scale": "1-5"
+      },
+      {
+        "question_id": "test_005",
+        "dimension": "creativity",
+        "subdimension": "innovation",
+        "question_text": "Test question 5: I demonstrate creative thinking in my work.",
+        "target_year_level": 12,
+        "response_scale": "1-5"
+      }
+    ]
+  },
+  {
+    "id": "quiz_1751548650",
+    "title": "Test Quiz with 5 Questions",
+    "created_at": "2025-07-03T13:17:30.477101",
+    "data": [
+      {
+        "question_id": "test_001",
+        "dimension": "creativity",
+        "subdimension": "innovation",
+        "question_text": "Test question 1: I demonstrate creative thinking in my work.",
+        "target_year_level": 12,
+        "response_scale": "1-5"
+      },
+      {
+        "question_id": "test_002",
+        "dimension": "creativity",
+        "subdimension": "innovation",
+        "question_text": "Test question 2: I demonstrate creative thinking in my work.",
+        "target_year_level": 12,
+        "response_scale": "1-5"
+      },
+      {
+        "question_id": "test_003",
+        "dimension": "creativity",
+        "subdimension": "innovation",
+        "question_text": "Test question 3: I demonstrate creative thinking in my work.",
+        "target_year_level": 12,
+        "response_scale": "1-5"
+      },
+      {
+        "question_id": "test_004",
+        "dimension": "creativity",
+        "subdimension": "innovation",
+        "question_text": "Test question 4: I demonstrate creative thinking in my work.",
+        "target_year_level": 12,
+        "response_scale": "1-5"
+      },
+      {
+        "question_id": "test_005",
+        "dimension": "creativity",
+        "subdimension": "innovation",
+        "question_text": "Test question 5: I demonstrate creative thinking in my work.",
+        "target_year_level": 12,
+        "response_scale": "1-5"
+      }
+    ]
+  },
+  {
+    "id": "quiz_1751549299",
+    "title": "API Generated Quiz - 5 Questions",
+    "created_at": "2025-07-03T13:28:19.680595",
+    "data": [
+      {
+        "question_id": "api_test_001",
+        "dimension": "creativity",
+        "subdimension": "algorithm_design",
+        "question_text": "How confident are you in your ability to break down a problem into smaller, manageable steps for algorithmic design?",
+        "target_year_level": 1,
+        "response_scale": "1-5"
+      },
+      {
+        "question_id": "api_test_002",
+        "dimension": "creativity",
+        "subdimension": "algorithm_design",
+        "question_text": "How comfortable are you with using pseudocode to represent the logic of a potential algorithm?",
+        "target_year_level": 1,
+        "response_scale": "1-5"
+      },
+      {
+        "question_id": "api_test_003",
+        "dimension": "creativity",
+        "subdimension": "algorithm_design",
+        "question_text": "How confident are you in identifying different algorithmic approaches (e.g., brute force, greedy) to solve a given problem?",
+        "target_year_level": 1,
+        "response_scale": "1-5"
+      },
+      {
+        "question_id": "api_test_004",
+        "dimension": "creativity",
+        "subdimension": "algorithm_design",
+        "question_text": "How comfortable are you with evaluating the efficiency of a simple algorithm based on the number of steps it takes?",
+        "target_year_level": 1,
+        "response_scale": "1-5"
+      },
+      {
+        "question_id": "api_test_005",
+        "dimension": "creativity",
+        "subdimension": "algorithm_design",
+        "question_text": "How confident are you in tracing the execution of a basic algorithm using example inputs to verify its correctness?",
+        "target_year_level": 1,
+        "response_scale": "1-5"
+      }
+    ]
+  },
+  {
+    "id": "quiz_1751549307",
+    "title": "API Generated Quiz - 5 Questions",
+    "created_at": "2025-07-03T13:28:27.995179",
+    "data": [
+      {
+        "question_id": "api_test_001",
+        "dimension": "creativity",
+        "subdimension": "algorithm_design",
+        "question_text": "How confident are you in generating different algorithmic solutions for a given problem?",
+        "target_year_level": 1,
+        "response_scale": "1-5"
+      },
+      {
+        "question_id": "api_test_002",
+        "dimension": "creativity",
+        "subdimension": "algorithm_design",
+        "question_text": "How well do you understand the basic principles of algorithm efficiency and time complexity?",
+        "target_year_level": 1,
+        "response_scale": "1-5"
+      },
+      {
+        "question_id": "api_test_003",
+        "dimension": "creativity",
+        "subdimension": "algorithm_design",
+        "question_text": "How comfortable are you with applying fundamental data structures (e.g., arrays, linked lists) in algorithm design?",
+        "target_year_level": 1,
+        "response_scale": "1-5"
+      },
+      {
+        "question_id": "api_test_004",
+        "dimension": "creativity",
+        "subdimension": "algorithm_design",
+        "question_text": "How confident are you in translating a problem description into a clear and concise algorithmic plan?",
+        "target_year_level": 1,
+        "response_scale": "1-5"
+      },
+      {
+        "question_id": "api_test_005",
+        "dimension": "creativity",
+        "subdimension": "algorithm_design",
+        "question_text": "How comfortable are you with debugging and testing your algorithm designs for correctness?",
+        "target_year_level": 1,
+        "response_scale": "1-5"
+      }
+    ]
+  },
+  {
+    "id": "quiz_1751549383",
+    "title": "\ud83c\udfaf Demo Self-Assessment Quiz",
+    "created_at": "2025-07-03T13:29:43.018763",
+    "data": [
+      {
+        "question_id": "demo_001",
+        "dimension": "creativity",
+        "subdimension": "innovation_problem_solving",
+        "question_text": "I often come up with unique solutions to complex problems.",
+        "target_year_level": 1,
+        "response_scale": "1-5"
+      },
+      {
+        "question_id": "demo_002",
+        "dimension": "creativity",
+        "subdimension": "innovation_problem_solving",
+        "question_text": "I enjoy brainstorming new ideas and approaches.",
+        "target_year_level": 1,
+        "response_scale": "1-5"
+      },
+      {
+        "question_id": "demo_003",
+        "dimension": "teamwork",
+        "subdimension": "communication_collaboration",
+        "question_text": "I work effectively with team members to achieve common goals.",
+        "target_year_level": 1,
+        "response_scale": "1-5"
+      },
+      {
+        "question_id": "demo_004",
+        "dimension": "teamwork",
+        "subdimension": "communication_collaboration",
+        "question_text": "I listen actively to others' perspectives and ideas.",
+        "target_year_level": 1,
+        "response_scale": "1-5"
+      },
+      {
+        "question_id": "demo_005",
+        "dimension": "soft_skills",
+        "subdimension": "leadership_management",
+        "question_text": "I can motivate and inspire others to perform their best.",
+        "target_year_level": 1,
+        "response_scale": "1-5"
+      },
+      {
+        "question_id": "demo_006",
+        "dimension": "soft_skills",
+        "subdimension": "leadership_management",
+        "question_text": "I take initiative in challenging situations.",
+        "target_year_level": 1,
+        "response_scale": "1-5"
+      },
+      {
+        "question_id": "demo_007",
+        "dimension": "hard_skills",
+        "subdimension": "data_analysis",
+        "question_text": "I can analyze data to identify trends and patterns.",
+        "target_year_level": 1,
+        "response_scale": "1-5"
+      },
+      {
+        "question_id": "demo_008",
+        "dimension": "hard_skills",
+        "subdimension": "data_analysis",
+        "question_text": "I use data-driven insights to make informed decisions.",
+        "target_year_level": 1,
+        "response_scale": "1-5"
+      }
+    ]
+  }
+]

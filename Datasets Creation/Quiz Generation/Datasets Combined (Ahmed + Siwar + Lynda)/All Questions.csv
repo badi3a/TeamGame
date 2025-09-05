@@ -1,0 +1,881 @@
+question_id,dimension,subdimension,question_text,target_year_level
+ss_156,soft_skills,emotional_intelligence,How comfortable are you with emotional conversations?,1
+ss_148,soft_skills,leadership,How skilled are you in leadership?,2
+hs_130,hard_skills,api_development,How effectively can you perform implement data encryption?,1
+ss_349,soft_skills,communication_skills,How well do you perform in difficult conversations?,1
+sa_180,creativity,artistic_creativity,How confident are you in using creative tools for technical communication?,2
+hs_153,hard_skills,cybersecurity,How often do you engage in API security implementation?,1
+tw_216,teamwork,team_building,How confident are you in leading project discussions?,1
+tw_205,teamwork,delegation,How effectively can you perform coordinate multiple stakeholders?,2
+hs_108,hard_skills,version_control,How often do you engage in API security implementation?,1
+sa_004,creativity,innovation_problem_solving,How comfortable are you with exploring unconventional problem-solving methods?,1
+ss_543,soft_skills,empathy,How well do you perform empathy?,1
+hs_077,hard_skills,data_structures_algorithms,How well do you perform in cloud infrastructure management?,2
+hs_129,hard_skills,api_development,How comfortable are you with machine learning algorithms?,3
+ss_652,soft_skills,strategic_planning,How competent are you at strategic planning?,1
+tw_164,teamwork,cultural_sensitivity,How comfortable are you with team decision-making?,3
+sa_024,creativity,system_architecture,How confident are you in organizing complex project architectures?,3
+tw_015,teamwork,communication_documentation,How effectively can you perform build team consensus?,2
+sa_163,creativity,artistic_creativity,How comfortable are you with blending technical and artistic skills?,3
+sa_075,creativity,creative_thinking,How often do you engage in creative ideation sessions?,1
+hs_007,hard_skills,programming_languages,How well do you perform in code testing and debugging?,2
+hs_176,hard_skills,machine_learning,How confident are you in mobile app development?,2
+ss_054,soft_skills,critical_thinking,How competent are you at critical thinking?,2
+hs_056,hard_skills,web_development,How confident are you in mobile app development?,1
+sa_031,creativity,innovation_problem_solving,How confident are you in developing innovative solutions to complex problems?,1
+sa_009,creativity,innovation_problem_solving,How comfortable are you with ambiguous problems that require creative solutions?,3
+hs_147,hard_skills,cloud_computing,How well do you perform in web framework implementation?,2
+hs_216,hard_skills,microservices,How confident are you in implementing CI/CD pipelines?,3
+sa_041,creativity,algorithm_design,How effectively can you perform create algorithms that learn and evolve?,1
+sa_133,hard_skills,database_management,How well do you perform writing efficient SQL queries?,1
+sa_032,creativity,algorithm_design,How confident are you in designing efficient algorithms for novel problems?,1
+sa_031,creativity,ux_design,How comfortable are you with UX design?,1
+hs_240,hard_skills,containerization,How effectively can you perform implement real-time systems?,1
+sa_051,creativity,algorithm_design,How effectively can you perform create algorithms that learn and evolve?,2
+ss_651,soft_skills,strategic_planning,How well do you perform strategic planning?,1
+tw_228,teamwork,collaborative_planning,How often do you engage in peer mentoring?,2
+ss_128,soft_skills,leadership,How competent are you at leadership?,1
+ss_298,soft_skills,stress_management,How often do you engage in stress management?,3
+sa_035,creativity,algorithm_design,How comfortable are you with designing algorithms for emerging technologies?,1
+hs_263,hard_skills,performance_optimization,How often do you engage in system monitoring and logging?,2
+tw_080,teamwork,remote_collaboration,How effectively can you perform resolve team conflicts?,2
+tw_150,teamwork,knowledge_sharing,How effectively can you perform build team consensus?,3
+sa_085,creativity,creative_thinking,How often do you engage in creative ideation sessions?,2
+ss_305,soft_skills,self_motivation,How would you rate your self motivation abilities?,1
+sa_139,creativity,ux_design,How effectively can you perform create user experiences that set new standards?,3
+sa_102,creativity,system_architecture,How comfortable are you with designing architectures that challenge industry norms?,3
+sa_104,creativity,system_architecture,How confident are you in designing innovative system architectures?,2
+sa_037,creativity,algorithm_design,How confident are you in developing creative data structures?,3
+tw_093,teamwork,conflict_mediation,How often do you engage in peer mentoring?,3
+ss_115,soft_skills,leadership,How confident are you in leading diverse teams?,1
+tw_149,teamwork,knowledge_sharing,How comfortable are you with team decision-making?,1
+sa_047,teamwork,code_review_collaboration,How well do you perform code review and collaboration?,2
+tw_212,teamwork,team_building,How well do you perform in cross-functional collaboration?,3
+hs_160,hard_skills,cybersecurity,How effectively can you perform implement data encryption?,3
+tw_200,teamwork,delegation,How effectively can you perform resolve team conflicts?,3
+hs_123,hard_skills,api_development,How often do you engage in API security implementation?,3
+sa_062,teamwork,conflict_resolution,How often do you engage in balancing individual and team priorities?,2
+sa_042,teamwork,communication_documentation,How confident are you in structuring documentation for diverse audiences?,3
+tw_039,teamwork,project_coordination,How comfortable are you with giving peer feedback?,3
+sa_064,teamwork,leadership_mentoring,How confident are you in leadership mentoring?,1
+ss_353,soft_skills,communication_skills,How confident are you in communication skills?,3
+hs_075,hard_skills,mobile_development,How effectively can you perform implement real-time systems?,3
+tw_160,teamwork,cultural_sensitivity,How effectively can you perform coordinate multiple stakeholders?,2
+sa_111,soft_skills,presentation_communication,How often do you engage in presentation and communication?,3
+hs_052,hard_skills,web_development,How well do you perform in code testing and debugging?,3
+tw_084,teamwork,remote_collaboration,How comfortable are you with giving peer feedback?,3
+sa_061,creativity,algorithm_design,How effectively can you perform create algorithms that learn and evolve?,3
+tw_124,teamwork,peer_feedback,How comfortable are you with remote team coordination?,3
+tw_251,teamwork,group_problem_solving,How confident are you in managing team deadlines?,3
+hs_266,hard_skills,performance_optimization,How confident are you in mobile app development?,1
+hs_127,hard_skills,api_development,How well do you perform in code testing and debugging?,2
+hs_030,hard_skills,database_management,How effectively can you perform implement real-time systems?,1
+tw_202,teamwork,delegation,How well do you perform in knowledge sharing sessions?,3
+sa_178,creativity,artistic_creativity,How comfortable are you with incorporating aesthetic elements in technical design?,3
+tw_185,teamwork,consensus_building,How effectively can you perform resolve team conflicts?,2
+tw_024,teamwork,code_review_collaboration,How comfortable are you with giving peer feedback?,2
+hs_012,hard_skills,programming_languages,How well do you perform in web framework implementation?,2
+ss_400,soft_skills,conflict_resolution,How confident are you in conflict resolution?,1
+ss_478,soft_skills,public_speaking,How effectively can you perform public speaking?,1
+sa_140,hard_skills,devops_deployment,How effectively can you perform perform DevOps and deployment?,2
+hs_250,hard_skills,monitoring_logging,How effectively can you perform implement data encryption?,3
+tw_218,teamwork,team_building,How often do you engage in team building activities?,1
+ss_012,soft_skills,time_management,How capable are you of time management?,1
+tw_001,teamwork,communication_documentation,How confident are you in facilitating team meetings?,2
+sa_161,creativity,artistic_creativity,How well do you perform when designing technical solutions with artistic flair?,1
+hs_180,hard_skills,machine_learning,How effectively can you perform implement real-time systems?,3
+tw_133,teamwork,peer_feedback,How often do you engage in group problem-solving?,1
+tw_227,teamwork,collaborative_planning,How well do you perform in cross-functional collaboration?,2
+ss_249,soft_skills,decision_making,How well do you perform decision making?,1
+hs_005,hard_skills,programming_languages,How effectively can you perform optimize database performance?,3
+ss_662,soft_skills,strategic_planning,How proficient are you at strategic planning?,2
+hs_163,hard_skills,cybersecurity,How often do you engage in performance profiling?,2
+ss_045,soft_skills,critical_thinking,How skilled are you in critical thinking?,2
+hs_142,hard_skills,cloud_computing,How well do you perform in code testing and debugging?,1
+ss_078,soft_skills,adaptability_learning,How capable are you of adaptability and learning?,1
+sa_133,creativity,ux_design,How comfortable are you with designing for future user behaviors?,3
+ss_466,soft_skills,public_speaking,How proficient are you at public speaking?,3
+hs_032,hard_skills,devops_deployment,How well do you perform in cloud infrastructure management?,1
+ss_069,soft_skills,critical_thinking,How experienced are you with critical thinking?,3
+tw_235,teamwork,collaborative_planning,How effectively can you perform coordinate multiple stakeholders?,3
+tw_118,teamwork,team_leadership,How often do you engage in group problem-solving?,3
+sa_028,creativity,innovation_problem_solving,How often do you engage in lateral thinking for complex challenges?,1
+tw_239,teamwork,collaborative_planning,How comfortable are you with team decision-making?,3
+sa_101,creativity,system_architecture,How often do you engage in architectural pattern innovation?,2
+ss_275,soft_skills,stress_management,How effectively can you perform stress management?,2
+sa_030,creativity,innovation_problem_solving,How effectively can you perform synthesize diverse perspectives into innovative approaches?,3
+ss_158,soft_skills,emotional_intelligence,How confident are you in building rapport?,2
+tw_032,teamwork,project_coordination,How well do you perform in cross-functional collaboration?,3
+hs_220,hard_skills,microservices,How effectively can you perform implement data encryption?,3
+sa_043,creativity,algorithm_design,How well do you perform when creating algorithms that balance performance and creativity?,3
+hs_141,hard_skills,cloud_computing,How confident are you in implementing CI/CD pipelines?,2
+ss_199,soft_skills,problem_solving,How strong are your problem solving capabilities?,3
+tw_225,teamwork,team_building,How effectively can you perform build team consensus?,2
+tw_042,teamwork,project_coordination,How well do you perform in collaborative planning?,3
+ss_124,soft_skills,leadership,How would you rate your leadership abilities?,2
+tw_135,teamwork,peer_feedback,How effectively can you perform build team consensus?,3
+ss_344,soft_skills,communication_skills,How well do you perform in written communication?,2
+sa_085,soft_skills,time_management,How comfortable are you with time management?,1
+tw_022,teamwork,code_review_collaboration,How well do you perform in knowledge sharing sessions?,3
+hs_019,hard_skills,database_management,How comfortable are you with containerization technologies?,1
+sa_157,creativity,artistic_creativity,How often do you engage in creative visualization of complex data?,3
+ss_134,soft_skills,leadership,How effectively can you perform leadership?,3
+sa_014,creativity,innovation_problem_solving,How comfortable are you with exploring unconventional problem-solving methods?,2
+ss_039,soft_skills,critical_thinking,How proficient are you at critical thinking?,3
+hs_086,hard_skills,data_structures_algorithms,How confident are you in mobile app development?,3
+sa_174,creativity,artistic_creativity,How effectively can you perform inspire others through creative technical presentations?,2
+ss_534,soft_skills,empathy,How would you rate your empathy abilities?,3
+tw_111,teamwork,team_leadership,How confident are you in leading project discussions?,3
+hs_018,hard_skills,database_management,How often do you engage in API security implementation?,1
+sa_066,teamwork,leadership_mentoring,How often do you engage in leadership mentoring?,3
+hs_136,hard_skills,cloud_computing,How confident are you in implementing microservices architecture?,1
+tw_054,teamwork,mentoring_teaching,How comfortable are you with giving peer feedback?,3
+ss_120,soft_skills,leadership,How confident are you in setting team goals?,2
+sa_034,creativity,ux_design,How well do you perform gathering user feedback?,1
+sa_032,creativity,ux_design,How effectively can you perform perform UX design?,2
+hs_197,hard_skills,blockchain,How well do you perform in cloud infrastructure management?,3
+hs_083,hard_skills,data_structures_algorithms,How often do you engage in system monitoring and logging?,3
+tw_048,teamwork,mentoring_teaching,How often do you engage in peer mentoring?,1
+sa_176,creativity,artistic_creativity,How well do you perform when creating visually compelling technical solutions?,1
+sa_074,creativity,creative_thinking,How well do you perform when thinking outside conventional paradigms?,3
+sa_042,creativity,algorithm_design,How confident are you in designing efficient algorithms for novel problems?,2
+ss_424,soft_skills,networking,How experienced are you with networking?,1
+sa_047,creativity,algorithm_design,How confident are you in developing creative data structures?,1
+ss_355,soft_skills,communication_skills,How capable are you of communication skills?,3
+ss_422,soft_skills,networking,How confident are you in networking?,3
+sa_049,teamwork,code_review_collaboration,How comfortable are you with code review and collaboration?,1
+tw_198,teamwork,delegation,How often do you engage in peer mentoring?,2
+ss_281,soft_skills,stress_management,How competent are you at stress management?,1
+ss_582,soft_skills,creativity_thinking,How confident are you in creativity thinking?,1
+sa_006,creativity,innovation_problem_solving,How confident are you in integrating feedback when solving problems creatively?,3
+sa_019,creativity,innovation_problem_solving,How comfortable are you with ambiguous problems that require creative solutions?,1
+hs_207,hard_skills,blockchain,How well do you perform in web framework implementation?,2
+hs_034,hard_skills,devops_deployment,How comfortable are you with containerization technologies?,1
+tw_060,teamwork,mentoring_teaching,How effectively can you perform build team consensus?,3
+hs_070,hard_skills,mobile_development,How effectively can you perform implement data encryption?,1
+sa_062,creativity,algorithm_design,How confident are you in designing efficient algorithms for novel problems?,1
+hs_269,hard_skills,performance_optimization,How comfortable are you with blockchain technology?,2
+sa_144,hard_skills,devops_deployment,How comfortable are you with managing deployment pipelines?,3
+ss_077,soft_skills,adaptability_learning,How proficient are you at adaptability and learning?,1
+tw_253,teamwork,group_problem_solving,How often do you engage in group problem-solving?,3
+sa_026,creativity,system_architecture,How often do you engage in proposing maintainable system designs?,2
+sa_049,creativity,algorithm_design,How often do you engage in creating algorithms that inspire new approaches?,3
+sa_011,creativity,algorithm_design,How well do you perform designing algorithms?,2
+tw_181,teamwork,consensus_building,How confident are you in facilitating team meetings?,2
+sa_135,hard_skills,database_management,How comfortable are you with data migration planning?,3
+sa_173,creativity,artistic_creativity,How comfortable are you with blending technical and artistic skills?,1
+hs_112,hard_skills,version_control,How well do you perform in code testing and debugging?,3
+sa_083,creativity,creative_thinking,How confident are you in generating original ideas for technical challenges?,3
+ss_169,soft_skills,emotional_intelligence,How capable are you of emotional intelligence?,3
+ss_358,soft_skills,communication_skills,How would you rate your communication skills abilities?,1
+sa_030,creativity,ux_design,How often do you engage in UX design?,3
+hs_066,hard_skills,mobile_development,How confident are you in implementing CI/CD pipelines?,3
+tw_099,teamwork,conflict_mediation,How comfortable are you with giving peer feedback?,3
+ss_308,soft_skills,self_motivation,How often do you engage in self motivation?,2
+tw_016,teamwork,code_review_collaboration,How confident are you in facilitating team meetings?,3
+sa_1078,soft_skills,communication,I am highly aware of my body language during conversations.,3
+sa_046,creativity,algorithm_design,How effectively can you perform create algorithms that solve previously unsolved problems?,3
+ss_248,soft_skills,decision_making,How capable are you of decision making?,1
+sa_131,hard_skills,database_management,How effectively can you perform database management?,2
+sa_055,teamwork,conflict_resolution,How confident are you in conflict resolution?,1
+hs_214,hard_skills,microservices,How comfortable are you with containerization technologies?,3
+sa_128,hard_skills,database_management,How well do you perform database management?,2
+hs_245,hard_skills,monitoring_logging,How effectively can you perform optimize database performance?,3
+hs_128,hard_skills,api_development,How often do you engage in system monitoring and logging?,2
+tw_074,teamwork,cross_functional_work,How comfortable are you with team decision-making?,2
+hs_073,hard_skills,mobile_development,How often do you engage in performance profiling?,2
+ss_116,soft_skills,leadership,How well do you perform when motivating team members?,1
+hs_117,hard_skills,version_control,How well do you perform in web framework implementation?,3
+hs_165,hard_skills,cybersecurity,How effectively can you perform implement real-time systems?,3
+tw_046,teamwork,mentoring_teaching,How confident are you in facilitating team meetings?,3
+sa_063,teamwork,conflict_resolution,How comfortable are you with resolving disagreements?,3
+hs_061,hard_skills,mobile_development,How confident are you in implementing microservices architecture?,1
+ss_612,soft_skills,analytical_thinking,How competent are you at analytical thinking?,3
+hs_113,hard_skills,version_control,How often do you engage in system monitoring and logging?,1
+hs_227,hard_skills,containerization,How well do you perform in cloud infrastructure management?,2
+sa_079,teamwork,agile_participation,How well do you perform sprint planning?,1
+sa_008,creativity,innovation_problem_solving,How often do you engage in generating multiple creative ideas?,2
+sa_175,creativity,artistic_creativity,How confident are you in applying artistic principles to technical work?,3
+sa_120,creativity,system_architecture,How well do you perform when designing architectures for unknown future requirements?,3
+ss_421,soft_skills,networking,How proficient are you at networking?,2
+sa_066,creativity,creative_thinking,How comfortable are you with abstract thinking and conceptualization?,1
+hs_090,hard_skills,data_structures_algorithms,How effectively can you perform implement real-time systems?,2
+sa_103,soft_skills,adaptability_learning,How comfortable are you with adaptability and learning?,1
+hs_185,hard_skills,artificial_intelligence,How effectively can you perform optimize database performance?,3
+ss_467,soft_skills,public_speaking,How capable are you of public speaking?,3
+ss_461,soft_skills,public_speaking,How would you rate your public speaking abilities?,3
+sa_183,creativity,artistic_creativity,How comfortable are you with blending technical and artistic skills?,2
+tw_092,teamwork,conflict_mediation,How well do you perform in cross-functional collaboration?,3
+sa_003,creativity,innovation_problem_solving,How often do you engage in innovation problem solving?,3
+hs_105,hard_skills,software_testing,How effectively can you perform implement real-time systems?,3
+tw_242,teamwork,group_problem_solving,How well do you perform in cross-functional collaboration?,1
+ss_409,soft_skills,conflict_resolution,How capable are you of conflict resolution?,1
+ss_356,soft_skills,communication_skills,How strong are your communication skills capabilities?,2
+sa_123,creativity,system_architecture,How effectively can you perform balance architectural creativity with practical constraints?,3
+tw_038,teamwork,project_coordination,How often do you engage in team building activities?,1
+hs_195,hard_skills,artificial_intelligence,How effectively can you perform implement real-time systems?,2
+tw_201,teamwork,delegation,How confident are you in leading project discussions?,3
+ss_366,soft_skills,communication_skills,How experienced are you with communication skills?,3
+sa_114,soft_skills,presentation_communication,How confident are you in presenting technical ideas to diverse audiences?,3
+ss_238,soft_skills,decision_making,How comfortable are you with decision making?,1
+tw_085,teamwork,remote_collaboration,How effectively can you perform coordinate multiple stakeholders?,1
+hs_181,hard_skills,artificial_intelligence,How confident are you in implementing microservices architecture?,1
+sa_116,soft_skills,presentation_communication,How often do you engage in simplifying complex topics?,2
+hs_008,hard_skills,programming_languages,How often do you engage in system monitoring and logging?,2
+sa_177,creativity,artistic_creativity,How often do you engage in creative visualization of complex data?,2
+ss_496,soft_skills,active_listening,How skilled are you in active listening?,1
+sa_044,creativity,algorithm_design,How often do you engage in algorithmic innovation and optimization?,1
+sa_113,creativity,system_architecture,How effectively can you perform balance architectural creativity with practical constraints?,2
+ss_533,soft_skills,empathy,How effectively can you perform empathy?,2
+ss_253,soft_skills,decision_making,How often do you engage in decision making?,1
+ss_556,soft_skills,empathy,How skilled are you in empathy?,2
+hs_186,hard_skills,artificial_intelligence,How confident are you in implementing CI/CD pipelines?,2
+ss_664,soft_skills,strategic_planning,How often do you engage in strategic planning?,3
+ss_484,soft_skills,public_speaking,How competent are you at public speaking?,3
+sa_100,soft_skills,adaptability_learning,How confident are you in adaptability and learning?,1
+sa_098,creativity,system_architecture,How effectively can you perform architect systems that inspire new design paradigms?,2
+tw_065,teamwork,cross_functional_work,How effectively can you perform resolve team conflicts?,3
+sa_130,creativity,ux_design,How confident are you in designing intuitive yet innovative interfaces?,3
+tw_180,teamwork,meeting_facilitation,How effectively can you perform build team consensus?,1
+sa_020,creativity,innovation_problem_solving,How effectively can you perform synthesize diverse perspectives into innovative approaches?,2
+hs_205,hard_skills,blockchain,How effectively can you perform implement data encryption?,1
+sa_077,teamwork,agile_participation,How effectively can you perform agile participation?,2
+sa_053,teamwork,code_review_collaboration,How often do you engage in addressing code issues diplomatically?,2
+ss_214,soft_skills,problem_solving,How capable are you of problem solving?,2
+tw_153,teamwork,cultural_sensitivity,How often do you engage in peer mentoring?,1
+sa_169,creativity,artistic_creativity,How effectively can you perform create technical solutions that are also beautiful?,3
+tw_115,teamwork,team_leadership,How effectively can you perform coordinate multiple stakeholders?,1
+tw_193,teamwork,consensus_building,How often do you engage in group problem-solving?,2
+ss_126,soft_skills,leadership,How comfortable are you with leadership?,2
+ss_653,soft_skills,strategic_planning,How skilled are you in strategic planning?,1
+tw_189,teamwork,consensus_building,How comfortable are you with giving peer feedback?,3
+sa_025,creativity,innovation_problem_solving,How effectively can you perform combine different ideas to create novel solutions?,1
+sa_164,creativity,artistic_creativity,How effectively can you perform inspire others through creative technical presentations?,1
+hs_003,hard_skills,programming_languages,How often do you engage in API security implementation?,1
+hs_009,hard_skills,programming_languages,How comfortable are you with machine learning algorithms?,3
+tw_159,teamwork,cultural_sensitivity,How comfortable are you with giving peer feedback?,3
+ss_154,soft_skills,emotional_intelligence,How well do you perform in managing your emotions?,1
+tw_249,teamwork,group_problem_solving,How comfortable are you with giving peer feedback?,1
+ss_121,soft_skills,leadership,How well do you perform in conflict resolution?,2
+ss_385,soft_skills,conflict_resolution,How competent are you at conflict resolution?,3
+sa_137,creativity,ux_design,How often do you engage in creative user interaction design?,1
+ss_502,soft_skills,active_listening,How comfortable are you with active listening?,1
+ss_309,soft_skills,self_motivation,How strong are your self motivation capabilities?,2
+ss_007,soft_skills,time_management,How strong are your time management capabilities?,1
+hs_039,hard_skills,devops_deployment,How comfortable are you with machine learning algorithms?,1
+sa_055,creativity,algorithm_design,How comfortable are you with designing algorithms for emerging technologies?,3
+hs_219,hard_skills,microservices,How comfortable are you with machine learning algorithms?,2
+sa_146,creativity,ux_design,How well do you perform when designing interfaces that surprise and delight users?,1
+hs_212,hard_skills,microservices,How well do you perform in cloud infrastructure management?,1
+sa_034,creativity,algorithm_design,How often do you engage in algorithmic innovation and optimization?,3
+sa_096,creativity,system_architecture,How often do you engage in architectural innovation and experimentation?,3
+hs_259,hard_skills,performance_optimization,How comfortable are you with containerization technologies?,3
+tw_245,teamwork,group_problem_solving,How effectively can you perform resolve team conflicts?,1
+sa_100,creativity,system_architecture,How well do you perform when designing architectures for unknown future requirements?,1
+sa_129,creativity,ux_design,How effectively can you perform create user experiences that set new standards?,2
+sa_029,creativity,ux_design,How well do you perform UX design?,2
+hs_223,hard_skills,microservices,How often do you engage in performance profiling?,1
+sa_158,creativity,artistic_creativity,How comfortable are you with incorporating aesthetic elements in technical design?,1
+hs_171,hard_skills,machine_learning,How confident are you in implementing CI/CD pipelines?,1
+tw_019,teamwork,code_review_collaboration,How comfortable are you with remote team coordination?,3
+ss_387,soft_skills,conflict_resolution,How comfortable are you with conflict resolution?,3
+sa_105,creativity,system_architecture,How well do you perform when creating architectures for emerging use cases?,3
+sa_138,creativity,ux_design,How comfortable are you with designing for emerging interaction paradigms?,2
+sa_007,creativity,innovation_problem_solving,How well do you perform integrating feedback in creative tasks?,1
+tw_151,teamwork,cultural_sensitivity,How confident are you in facilitating team meetings?,3
+ss_345,soft_skills,communication_skills,How often do you engage in active listening?,2
+sa_038,creativity,algorithm_design,How well do you perform when designing algorithms for real-time systems?,1
+tw_098,teamwork,conflict_mediation,How often do you engage in team building activities?,1
+hs_222,hard_skills,microservices,How well do you perform in web framework implementation?,1
+tw_020,teamwork,code_review_collaboration,How effectively can you perform resolve team conflicts?,1
+sa_110,creativity,system_architecture,How well do you perform when designing architectures for unknown future requirements?,2
+ss_163,soft_skills,emotional_intelligence,How often do you engage in emotional intelligence?,3
+sa_106,soft_skills,adaptability_learning,How well do you perform pivoting strategies when challenges arise?,1
+ss_430,soft_skills,networking,How capable are you of networking?,2
+ss_003,soft_skills,time_management,How would you rate your time management abilities?,1
+sa_097,creativity,system_architecture,How comfortable are you with designing systems that don't follow traditional patterns?,1
+sa_083,soft_skills,time_management,How well do you perform time management?,2
+ss_216,soft_skills,problem_solving,How effectively can you perform problem solving?,2
+tw_234,teamwork,collaborative_planning,How comfortable are you with giving peer feedback?,3
+sa_006,creativity,innovation_problem_solving,How confident are you in challenging traditional approaches to find better solutions?,3
+tw_230,teamwork,collaborative_planning,How effectively can you perform resolve team conflicts?,1
+sa_073,creativity,creative_thinking,How confident are you in generating original ideas for technical challenges?,2
+ss_554,soft_skills,empathy,How proficient are you at empathy?,3
+sa_021,creativity,innovation_problem_solving,How confident are you in developing innovative solutions to complex problems?,3
+sa_108,soft_skills,adaptability_learning,How comfortable are you with rapid learning in projects?,3
+ss_649,soft_skills,strategic_planning,How comfortable are you with strategic planning?,3
+tw_002,teamwork,communication_documentation,How well do you perform in cross-functional collaboration?,1
+sa_025,creativity,system_architecture,How well do you perform incorporating security in architectures?,1
+ss_167,soft_skills,emotional_intelligence,How would you rate your emotional intelligence abilities?,3
+hs_151,hard_skills,cybersecurity,How confident are you in implementing microservices architecture?,3
+hs_098,hard_skills,software_testing,How often do you engage in system monitoring and logging?,2
+sa_016,creativity,innovation_problem_solving,How confident are you in challenging traditional approaches to find better solutions?,1
+tw_134,teamwork,peer_feedback,How comfortable are you with team decision-making?,3
+hs_182,hard_skills,artificial_intelligence,How well do you perform in cloud infrastructure management?,1
+hs_239,hard_skills,containerization,How comfortable are you with blockchain technology?,3
+ss_511,soft_skills,active_listening,How capable are you of active listening?,3
+ss_538,soft_skills,empathy,How often do you engage in empathy?,2
+sa_065,teamwork,leadership_mentoring,How well do you perform leadership mentoring?,2
+sa_089,soft_skills,time_management,How often do you engage in planning project deadlines?,2
+hs_164,hard_skills,cybersecurity,How comfortable are you with blockchain technology?,3
+sa_019,creativity,system_architecture,How confident are you in system architecture design?,1
+hs_232,hard_skills,containerization,How well do you perform in code testing and debugging?,2
+ss_392,soft_skills,conflict_resolution,How often do you engage in conflict resolution?,3
+sa_048,creativity,algorithm_design,How well do you perform when designing algorithms for real-time systems?,2
+sa_026,creativity,innovation_problem_solving,How confident are you in challenging traditional approaches to find better solutions?,2
+ss_319,soft_skills,self_motivation,How comfortable are you with self motivation?,3
+ss_278,soft_skills,stress_management,How comfortable are you with stress management?,1
+tw_131,teamwork,peer_feedback,How confident are you in managing team deadlines?,1
+tw_182,teamwork,consensus_building,How well do you perform in cross-functional collaboration?,3
+sa_013,creativity,algorithm_design,How comfortable are you with designing algorithms?,1
+sa_147,creativity,ux_design,How often do you engage in creative user interaction design?,2
+sa_059,teamwork,conflict_resolution,How effectively can you perform conflict resolution?,2
+tw_139,teamwork,knowledge_sharing,How comfortable are you with remote team coordination?,1
+ss_571,soft_skills,creativity_thinking,How strong are your creativity thinking capabilities?,2
+tw_186,teamwork,consensus_building,How confident are you in leading project discussions?,3
+hs_173,hard_skills,machine_learning,How often do you engage in system monitoring and logging?,1
+ss_050,soft_skills,critical_thinking,How strong are your critical thinking capabilities?,1
+ss_495,soft_skills,active_listening,How experienced are you with active listening?,3
+tw_248,teamwork,group_problem_solving,How often do you engage in team building activities?,3
+tw_103,teamwork,conflict_mediation,How often do you engage in group problem-solving?,1
+sa_141,creativity,ux_design,How well do you perform when balancing usability with creative expression?,2
+tw_063,teamwork,cross_functional_work,How often do you engage in peer mentoring?,3
+ss_117,soft_skills,leadership,How often do you take initiative in group projects?,3
+sa_128,creativity,ux_design,How comfortable are you with designing for emerging interaction paradigms?,1
+ss_191,soft_skills,problem_solving,How skilled are you in problem solving?,1
+hs_116,hard_skills,version_control,How confident are you in mobile app development?,2
+hs_149,hard_skills,cloud_computing,How comfortable are you with blockchain technology?,2
+sa_039,creativity,algorithm_design,How often do you engage in creating algorithms that inspire new approaches?,2
+sa_078,creativity,creative_thinking,How confident are you in challenging assumptions and conventional wisdom?,1
+tw_136,teamwork,knowledge_sharing,How confident are you in facilitating team meetings?,2
+sa_061,teamwork,conflict_resolution,How well do you perform facilitating consensus?,1
+sa_069,creativity,creative_thinking,How well do you perform when envisioning future technological possibilities?,1
+sa_079,creativity,creative_thinking,How well do you perform when envisioning future technological possibilities?,2
+sa_112,soft_skills,presentation_communication,How comfortable are you with presentation and communication?,1
+sa_057,creativity,algorithm_design,How confident are you in developing creative data structures?,2
+tw_029,teamwork,code_review_collaboration,How comfortable are you with team decision-making?,1
+sa_054,creativity,algorithm_design,How often do you engage in algorithmic innovation and optimization?,2
+ss_434,soft_skills,networking,How strong are your networking capabilities?,1
+tw_188,teamwork,consensus_building,How often do you engage in team building activities?,2
+hs_121,hard_skills,api_development,How confident are you in implementing microservices architecture?,3
+hs_036,hard_skills,devops_deployment,How confident are you in implementing CI/CD pipelines?,1
+sa_074,teamwork,agile_participation,How well do you perform agile participation?,2
+tw_023,teamwork,code_review_collaboration,How often do you engage in team building activities?,3
+sa_059,creativity,algorithm_design,How often do you engage in creating algorithms that inspire new approaches?,1
+sa_012,creativity,algorithm_design,How often do you engage in designing algorithms?,3
+sa_120,hard_skills,programming_languages,How often do you engage in programming languages?,3
+sa_008,creativity,innovation_problem_solving,How often do you engage in lateral thinking for complex challenges?,2
+sa_007,creativity,innovation_problem_solving,How well do you perform when adapting existing solutions to new contexts?,1
+sa_082,soft_skills,time_management,How confident are you in time management?,1
+sa_132,creativity,ux_design,How often do you engage in experimental design approaches?,2
+hs_248,hard_skills,monitoring_logging,How often do you engage in system monitoring and logging?,3
+sa_052,teamwork,code_review_collaboration,How well do you perform reviewing code for best practices?,1
+hs_224,hard_skills,microservices,How comfortable are you with blockchain technology?,3
+tw_162,teamwork,cultural_sensitivity,How well do you perform in collaborative planning?,1
+sa_143,creativity,ux_design,How comfortable are you with designing for future user behaviors?,1
+hs_042,hard_skills,devops_deployment,How well do you perform in web framework implementation?,2
+tw_166,teamwork,meeting_facilitation,How confident are you in facilitating team meetings?,1
+sa_142,creativity,ux_design,How often do you engage in experimental design approaches?,3
+tw_041,teamwork,project_coordination,How confident are you in managing team deadlines?,2
+hs_063,hard_skills,mobile_development,How often do you engage in API security implementation?,1
+tw_240,teamwork,collaborative_planning,How effectively can you perform build team consensus?,1
+ss_517,soft_skills,active_listening,How confident are you in active listening?,3
+tw_236,teamwork,collaborative_planning,How confident are you in managing team deadlines?,3
+ss_357,soft_skills,communication_skills,How proficient are you at communication skills?,3
+sa_068,teamwork,leadership_mentoring,How effectively can you perform leadership mentoring?,2
+sa_016,creativity,algorithm_design,How well do you perform explaining different algorithmic approaches?,1
+sa_004,creativity,innovation_problem_solving,How comfortable are you with innovation problem solving?,1
+tw_108,teamwork,team_leadership,How often do you engage in peer mentoring?,1
+ss_198,soft_skills,problem_solving,How well do you perform problem solving?,3
+hs_071,hard_skills,mobile_development,How confident are you in mobile app development?,1
+tw_167,teamwork,meeting_facilitation,How well do you perform in cross-functional collaboration?,2
+ss_164,soft_skills,emotional_intelligence,How proficient are you at emotional intelligence?,1
+ss_381,soft_skills,conflict_resolution,How proficient are you at conflict resolution?,2
+tw_190,teamwork,consensus_building,How effectively can you perform coordinate multiple stakeholders?,3
+sa_117,soft_skills,presentation_communication,How comfortable are you with making presentations interactive?,3
+ss_118,soft_skills,leadership,How comfortable are you with making difficult decisions?,1
+sa_107,soft_skills,adaptability_learning,How often do you engage in quick upskilling?,2
+tw_110,teamwork,team_leadership,How effectively can you perform resolve team conflicts?,2
+sa_010,creativity,algorithm_design,How confident are you in designing algorithms?,1
+ss_386,soft_skills,conflict_resolution,How strong are your conflict resolution capabilities?,2
+sa_023,creativity,system_architecture,How effectively can you perform system architecture design?,2
+ss_350,soft_skills,communication_skills,How often do you practice clear articulation?,1
+sa_088,soft_skills,time_management,How well do you perform balancing project milestones?,1
+hs_038,hard_skills,devops_deployment,How often do you engage in system monitoring and logging?,2
+hs_156,hard_skills,cybersecurity,How confident are you in implementing CI/CD pipelines?,2
+hs_028,hard_skills,database_management,How often do you engage in performance profiling?,2
+tw_244,teamwork,group_problem_solving,How comfortable are you with remote team coordination?,2
+ss_573,soft_skills,creativity_thinking,How comfortable are you with creativity thinking?,1
+hs_057,hard_skills,web_development,How well do you perform in web framework implementation?,3
+tw_211,teamwork,team_building,How confident are you in facilitating team meetings?,3
+sa_168,creativity,artistic_creativity,How comfortable are you with incorporating aesthetic elements in technical design?,2
+sa_097,soft_skills,critical_thinking,How well do you perform evaluating complex solutions?,1
+sa_058,creativity,algorithm_design,How well do you perform when designing algorithms for real-time systems?,3
+tw_113,teamwork,team_leadership,How often do you engage in team building activities?,2
+ss_426,soft_skills,networking,How comfortable are you with networking?,2
+tw_224,teamwork,team_building,How comfortable are you with team decision-making?,1
+ss_127,soft_skills,leadership,How strong are your leadership capabilities?,1
+sa_149,creativity,ux_design,How effectively can you perform create user experiences that set new standards?,1
+hs_233,hard_skills,containerization,How often do you engage in system monitoring and logging?,1
+tw_017,teamwork,code_review_collaboration,How well do you perform in cross-functional collaboration?,1
+sa_118,creativity,system_architecture,How effectively can you perform architect systems that inspire new design paradigms?,1
+sa_040,creativity,algorithm_design,How comfortable are you with designing self-adapting algorithms?,3
+hs_068,hard_skills,mobile_development,How often do you engage in system monitoring and logging?,3
+tw_025,teamwork,code_review_collaboration,How effectively can you perform coordinate multiple stakeholders?,3
+ss_460,soft_skills,public_speaking,How often do you engage in public speaking?,1
+sa_033,creativity,algorithm_design,How well do you perform when creating algorithms that balance performance and creativity?,2
+hs_235,hard_skills,containerization,How effectively can you perform implement data encryption?,3
+sa_153,creativity,ux_design,How comfortable are you with designing for future user behaviors?,2
+ss_390,soft_skills,conflict_resolution,How would you rate your conflict resolution abilities?,3
+tw_026,teamwork,code_review_collaboration,How confident are you in managing team deadlines?,1
+sa_129,hard_skills,database_management,How often do you engage in database management?,3
+ss_647,soft_skills,strategic_planning,How confident are you in strategic planning?,2
+sa_053,creativity,algorithm_design,How well do you perform when creating algorithms that balance performance and creativity?,1
+hs_001,hard_skills,programming_languages,How confident are you in implementing microservices architecture?,1
+sa_082,creativity,creative_thinking,How effectively can you perform transform creative ideas into practical solutions?,2
+sa_090,creativity,creative_thinking,How often do you engage in imaginative problem exploration?,1
+hs_133,hard_skills,api_development,How often do you engage in performance profiling?,2
+ss_233,soft_skills,decision_making,How skilled are you in decision making?,3
+ss_125,soft_skills,leadership,How proficient are you at leadership?,2
+sa_001,creativity,innovation_problem_solving,How confident are you in innovation problem solving?,1
+hs_238,hard_skills,containerization,How often do you engage in performance profiling?,2
+tw_013,teamwork,communication_documentation,How often do you engage in group problem-solving?,1
+hs_109,hard_skills,version_control,How comfortable are you with containerization technologies?,2
+ss_429,soft_skills,networking,How often do you engage in networking?,2
+sa_056,teamwork,conflict_resolution,How well do you perform conflict resolution?,2
+sa_091,creativity,creative_thinking,How comfortable are you with uncertainty and open-ended challenges?,2
+ss_614,soft_skills,analytical_thinking,How comfortable are you with analytical thinking?,1
+hs_079,hard_skills,data_structures_algorithms,How comfortable are you with containerization technologies?,2
+sa_081,creativity,creative_thinking,How comfortable are you with uncertainty and open-ended challenges?,1
+sa_091,soft_skills,critical_thinking,How confident are you in critical thinking?,1
+sa_078,teamwork,agile_participation,How confident are you in facilitating agile ceremonies?,3
+hs_013,hard_skills,programming_languages,How often do you engage in performance profiling?,2
+tw_070,teamwork,cross_functional_work,How effectively can you perform coordinate multiple stakeholders?,2
+hs_196,hard_skills,blockchain,How confident are you in implementing microservices architecture?,1
+ss_088,soft_skills,adaptability_learning,How skilled are you in adaptability and learning?,3
+ss_155,soft_skills,emotional_intelligence,How often do you practice empathy with colleagues?,1
+tw_021,teamwork,code_review_collaboration,How confident are you in leading project discussions?,1
+sa_109,creativity,system_architecture,How confident are you in creating flexible and adaptive architectures?,1
+tw_215,teamwork,team_building,How effectively can you perform resolve team conflicts?,3
+tw_052,teamwork,mentoring_teaching,How well do you perform in knowledge sharing sessions?,2
+sa_122,hard_skills,programming_languages,How effectively can you perform programming languages?,2
+tw_158,teamwork,cultural_sensitivity,How often do you engage in team building activities?,1
+ss_004,soft_skills,time_management,How skilled are you in time management?,3
+ss_667,soft_skills,strategic_planning,How capable are you of strategic planning?,3
+hs_260,hard_skills,performance_optimization,How effectively can you perform optimize database performance?,2
+sa_094,soft_skills,critical_thinking,How comfortable are you with critical thinking?,1
+ss_576,soft_skills,creativity_thinking,How well do you perform creativity thinking?,2
+ss_011,soft_skills,time_management,How experienced are you with time management?,3
+ss_296,soft_skills,stress_management,How would you rate your stress management abilities?,1
+sa_011,creativity,innovation_problem_solving,How confident are you in developing innovative solutions to complex problems?,2
+sa_093,soft_skills,critical_thinking,How often do you engage in critical thinking?,3
+sa_105,soft_skills,adaptability_learning,How confident are you in learning new tools under constraints?,3
+tw_081,teamwork,remote_collaboration,How confident are you in leading project discussions?,1
+ss_273,soft_skills,stress_management,How capable are you of stress management?,3
+sa_160,creativity,artistic_creativity,How confident are you in using creative tools for technical communication?,3
+hs_268,hard_skills,performance_optimization,How often do you engage in performance profiling?,2
+hs_243,hard_skills,monitoring_logging,How often do you engage in API security implementation?,2
+sa_072,creativity,creative_thinking,How effectively can you perform transform creative ideas into practical solutions?,1
+sa_024,creativity,innovation_problem_solving,How comfortable are you with exploring unconventional problem-solving methods?,3
+tw_091,teamwork,conflict_mediation,How confident are you in facilitating team meetings?,2
+sa_098,soft_skills,critical_thinking,How often do you engage in systematic investigation?,2
+sa_065,creativity,creative_thinking,How often do you engage in creative ideation sessions?,3
+sa_046,teamwork,code_review_collaboration,How confident are you in code review and collaboration?,1
+tw_154,teamwork,cultural_sensitivity,How comfortable are you with remote team coordination?,2
+hs_211,hard_skills,microservices,How confident are you in implementing microservices architecture?,1
+tw_106,teamwork,team_leadership,How confident are you in facilitating team meetings?,2
+sa_134,creativity,ux_design,How effectively can you perform create emotionally engaging user experiences?,1
+sa_144,creativity,ux_design,How effectively can you perform create emotionally engaging user experiences?,2
+ss_546,soft_skills,empathy,How strong are your empathy capabilities?,3
+hs_017,hard_skills,database_management,How well do you perform in cloud infrastructure management?,1
+sa_022,creativity,innovation_problem_solving,How well do you perform when generating creative alternatives to standard approaches?,1
+hs_101,hard_skills,software_testing,How confident are you in mobile app development?,2
+sa_114,creativity,system_architecture,How confident are you in designing innovative system architectures?,3
+sa_089,creativity,creative_thinking,How well do you perform when envisioning future technological possibilities?,3
+hs_043,hard_skills,devops_deployment,How often do you engage in performance profiling?,3
+hs_209,hard_skills,blockchain,How comfortable are you with blockchain technology?,3
+sa_150,creativity,ux_design,How confident are you in designing intuitive yet innovative interfaces?,2
+tw_178,teamwork,meeting_facilitation,How often do you engage in group problem-solving?,2
+sa_015,creativity,innovation_problem_solving,How effectively can you perform combine different ideas to create novel solutions?,3
+ss_201,soft_skills,problem_solving,How confident are you in problem solving?,1
+tw_152,teamwork,cultural_sensitivity,How well do you perform in cross-functional collaboration?,3
+hs_210,hard_skills,blockchain,How effectively can you perform implement real-time systems?,1
+tw_028,teamwork,code_review_collaboration,How often do you engage in group problem-solving?,2
+ss_361,soft_skills,communication_skills,How often do you engage in communication skills?,2
+sa_086,soft_skills,time_management,How effectively can you perform time management?,2
+hs_084,hard_skills,data_structures_algorithms,How comfortable are you with machine learning algorithms?,1
+sa_107,creativity,system_architecture,How comfortable are you with designing systems that don't follow traditional patterns?,2
+sa_054,teamwork,code_review_collaboration,How comfortable are you with mentoring during code reviews?,3
+ss_297,soft_skills,stress_management,How strong are your stress management capabilities?,3
+hs_252,hard_skills,monitoring_logging,How well do you perform in web framework implementation?,1
+sa_106,creativity,system_architecture,How often do you engage in architectural innovation and experimentation?,1
+ss_579,soft_skills,creativity_thinking,How skilled are you in creativity thinking?,1
+tw_031,teamwork,project_coordination,How confident are you in facilitating team meetings?,2
+hs_067,hard_skills,mobile_development,How well do you perform in code testing and debugging?,2
+ss_525,soft_skills,active_listening,How effectively can you perform active listening?,1
+sa_020,creativity,system_architecture,How well do you perform system architecture design?,2
+hs_237,hard_skills,containerization,How well do you perform in web framework implementation?,3
+hs_091,hard_skills,software_testing,How confident are you in implementing microservices architecture?,2
+sa_099,soft_skills,critical_thinking,How comfortable are you with root cause analysis?,3
+tw_137,teamwork,knowledge_sharing,How well do you perform in cross-functional collaboration?,2
+sa_003,creativity,innovation_problem_solving,How often do you engage in brainstorming sessions for problem-solving?,3
+sa_140,creativity,ux_design,How confident are you in designing intuitive yet innovative interfaces?,1
+ss_419,soft_skills,networking,How would you rate your networking abilities?,1
+hs_031,hard_skills,devops_deployment,How confident are you in implementing microservices architecture?,3
+tw_114,teamwork,team_leadership,How comfortable are you with giving peer feedback?,3
+hs_010,hard_skills,programming_languages,How effectively can you perform implement data encryption?,3
+hs_011,hard_skills,programming_languages,How confident are you in mobile app development?,1
+sa_119,creativity,system_architecture,How confident are you in creating flexible and adaptive architectures?,2
+ss_383,soft_skills,conflict_resolution,How experienced are you with conflict resolution?,3
+tw_057,teamwork,mentoring_teaching,How well do you perform in collaborative planning?,3
+sa_018,creativity,algorithm_design,How comfortable are you with explaining algorithms to others?,3
+sa_092,creativity,creative_thinking,How effectively can you perform transform creative ideas into practical solutions?,3
+ss_157,soft_skills,emotional_intelligence,How effectively can you perform handle workplace stress?,2
+ss_306,soft_skills,self_motivation,How experienced are you with self motivation?,2
+tw_076,teamwork,remote_collaboration,How confident are you in facilitating team meetings?,3
+sa_119,hard_skills,programming_languages,How well do you perform programming languages?,2
+sa_155,creativity,artistic_creativity,How confident are you in applying artistic principles to technical work?,1
+sa_080,creativity,creative_thinking,How often do you engage in imaginative problem exploration?,3
+tw_221,teamwork,team_building,How confident are you in managing team deadlines?,1
+sa_145,creativity,ux_design,How confident are you in creating innovative user experience designs?,3
+ss_618,soft_skills,analytical_thinking,How effectively can you perform analytical thinking?,3
+hs_006,hard_skills,programming_languages,How confident are you in implementing CI/CD pipelines?,2
+sa_073,teamwork,agile_participation,How confident are you in agile participation?,1
+sa_041,teamwork,communication_documentation,How effectively can you perform communication and documentation?,2
+hs_069,hard_skills,mobile_development,How comfortable are you with machine learning algorithms?,1
+tw_030,teamwork,code_review_collaboration,How effectively can you perform build team consensus?,1
+tw_040,teamwork,project_coordination,How effectively can you perform coordinate multiple stakeholders?,1
+hs_225,hard_skills,microservices,How effectively can you perform implement real-time systems?,2
+sa_010,creativity,innovation_problem_solving,How effectively can you perform synthesize diverse perspectives into innovative approaches?,1
+hs_118,hard_skills,version_control,How often do you engage in performance profiling?,2
+sa_122,creativity,system_architecture,How comfortable are you with designing architectures that challenge industry norms?,2
+sa_081,teamwork,agile_participation,How comfortable are you with adapting to change in agile workflows?,3
+sa_136,creativity,ux_design,How well do you perform when designing interfaces that surprise and delight users?,3
+sa_017,creativity,algorithm_design,How often do you engage in designing efficient algorithms under constraints?,2
+tw_082,teamwork,remote_collaboration,How well do you perform in knowledge sharing sessions?,2
+sa_013,creativity,innovation_problem_solving,How often do you engage in brainstorming sessions for problem-solving?,1
+hs_099,hard_skills,software_testing,How comfortable are you with machine learning algorithms?,3
+hs_159,hard_skills,cybersecurity,How comfortable are you with machine learning algorithms?,1
+tw_238,teamwork,collaborative_planning,How often do you engage in group problem-solving?,1
+sa_048,teamwork,code_review_collaboration,How often do you engage in code review and collaboration?,3
+tw_049,teamwork,mentoring_teaching,How comfortable are you with remote team coordination?,1
+ss_629,soft_skills,analytical_thinking,How strong are your analytical thinking capabilities?,3
+tw_071,teamwork,cross_functional_work,How confident are you in managing team deadlines?,2
+ss_535,soft_skills,empathy,How capable are you of empathy?,1
+sa_027,creativity,system_architecture,How comfortable are you with scalable architecture planning?,3
+hs_110,hard_skills,version_control,How effectively can you perform optimize database performance?,2
+ss_389,soft_skills,conflict_resolution,How effectively can you perform conflict resolution?,3
+hs_096,hard_skills,software_testing,How confident are you in implementing CI/CD pipelines?,3
+ss_129,soft_skills,leadership,How experienced are you with leadership?,3
+ss_267,soft_skills,stress_management,How confident are you in stress management?,1
+sa_002,creativity,innovation_problem_solving,How well do you perform when generating creative alternatives to standard approaches?,2
+sa_123,hard_skills,programming_languages,How confident are you in applying programming concepts to solve problems?,3
+ss_160,soft_skills,emotional_intelligence,How often do you help others with emotional support?,2
+tw_194,teamwork,consensus_building,How comfortable are you with team decision-making?,2
+hs_262,hard_skills,performance_optimization,How well do you perform in code testing and debugging?,2
+sa_137,hard_skills,devops_deployment,How well do you perform DevOps and deployment?,2
+hs_115,hard_skills,version_control,How effectively can you perform implement data encryption?,1
+sa_159,creativity,artistic_creativity,How effectively can you perform create technical solutions that are also beautiful?,2
+hs_145,hard_skills,cloud_computing,How effectively can you perform implement data encryption?,1
+hs_230,hard_skills,containerization,How effectively can you perform optimize database performance?,2
+tw_141,teamwork,knowledge_sharing,How confident are you in leading project discussions?,3
+hs_172,hard_skills,machine_learning,How well do you perform in code testing and debugging?,3
+hs_023,hard_skills,database_management,How often do you engage in system monitoring and logging?,2
+sa_039,teamwork,communication_documentation,How often do you engage in communication and documentation?,3
+hs_104,hard_skills,software_testing,How comfortable are you with blockchain technology?,2
+sa_127,creativity,ux_design,How often do you engage in creative user interaction design?,3
+sa_037,teamwork,communication_documentation,How confident are you in communication and documentation?,1
+sa_117,creativity,system_architecture,How comfortable are you with designing systems that don't follow traditional patterns?,3
+sa_072,teamwork,leadership_mentoring,How comfortable are you with empowering others?,3
+tw_156,teamwork,cultural_sensitivity,How confident are you in leading project discussions?,1
+hs_120,hard_skills,version_control,How effectively can you perform implement real-time systems?,3
+sa_076,creativity,creative_thinking,How comfortable are you with abstract thinking and conceptualization?,2
+ss_501,soft_skills,active_listening,How well do you perform active listening?,1
+hs_256,hard_skills,performance_optimization,How confident are you in implementing microservices architecture?,2
+sa_068,creativity,creative_thinking,How confident are you in challenging assumptions and conventional wisdom?,3
+ss_500,soft_skills,active_listening,How often do you engage in active listening?,3
+ss_435,soft_skills,networking,How effectively can you perform networking?,1
+tw_083,teamwork,remote_collaboration,How often do you engage in team building activities?,3
+sa_084,creativity,creative_thinking,How well do you perform when thinking outside conventional paradigms?,1
+sa_018,creativity,innovation_problem_solving,How often do you engage in lateral thinking for complex challenges?,3
+sa_116,creativity,system_architecture,How often do you engage in architectural innovation and experimentation?,2
+sa_095,soft_skills,critical_thinking,How effectively can you perform critical thinking?,2
+hs_143,hard_skills,cloud_computing,How often do you engage in system monitoring and logging?,2
+sa_172,creativity,artistic_creativity,How often do you engage in creative expression through technology?,3
+hs_085,hard_skills,data_structures_algorithms,How effectively can you perform implement data encryption?,1
+hs_046,hard_skills,web_development,How confident are you in implementing microservices architecture?,1
+sa_009,creativity,innovation_problem_solving,How comfortable are you with proposing alternative solutions?,3
+hs_064,hard_skills,mobile_development,How comfortable are you with containerization technologies?,1
+sa_001,creativity,innovation_problem_solving,How confident are you in developing innovative solutions to complex problems?,1
+tw_174,teamwork,meeting_facilitation,How comfortable are you with giving peer feedback?,1
+ss_119,soft_skills,leadership,How effectively can you perform delegate responsibilities?,2
+ss_425,soft_skills,networking,How skilled are you in networking?,2
+tw_112,teamwork,team_leadership,How well do you perform in knowledge sharing sessions?,2
+tw_068,teamwork,cross_functional_work,How often do you engage in team building activities?,2
+hs_074,hard_skills,mobile_development,How comfortable are you with blockchain technology?,2
+tw_252,teamwork,group_problem_solving,How well do you perform in collaborative planning?,3
+ss_259,soft_skills,decision_making,How would you rate your decision making abilities?,3
+tw_051,teamwork,mentoring_teaching,How confident are you in leading project discussions?,3
+sa_087,soft_skills,time_management,How confident are you in prioritizing tasks under time pressure?,3
+ss_122,soft_skills,leadership,How often do you provide constructive feedback?,1
+sa_115,creativity,system_architecture,How well do you perform when creating architectures for emerging use cases?,1
+hs_169,hard_skills,machine_learning,How comfortable are you with containerization technologies?,1
+hs_254,hard_skills,monitoring_logging,How comfortable are you with blockchain technology?,3
+tw_088,teamwork,remote_collaboration,How often do you engage in group problem-solving?,3
+tw_067,teamwork,cross_functional_work,How well do you perform in knowledge sharing sessions?,2
+sa_112,creativity,system_architecture,How comfortable are you with designing architectures that challenge industry norms?,1
+sa_111,creativity,system_architecture,How often do you engage in architectural pattern innovation?,3
+tw_246,teamwork,group_problem_solving,How confident are you in leading project discussions?,1
+hs_158,hard_skills,cybersecurity,How often do you engage in system monitoring and logging?,2
+sa_045,teamwork,communication_documentation,How comfortable are you with creating practical project documentation?,3
+ss_346,soft_skills,communication_skills,How comfortable are you with public speaking?,1
+tw_206,teamwork,delegation,How confident are you in managing team deadlines?,2
+ss_650,soft_skills,strategic_planning,How strong are your strategic planning capabilities?,3
+sa_151,creativity,ux_design,How well do you perform when balancing usability with creative expression?,3
+sa_088,creativity,creative_thinking,How confident are you in challenging assumptions and conventional wisdom?,2
+hs_080,hard_skills,data_structures_algorithms,How effectively can you perform optimize database performance?,3
+tw_126,teamwork,peer_feedback,How confident are you in leading project discussions?,1
+sa_108,creativity,system_architecture,How effectively can you perform architect systems that inspire new design paradigms?,3
+hs_027,hard_skills,database_management,How well do you perform in web framework implementation?,1
+sa_162,creativity,artistic_creativity,How often do you engage in creative expression through technology?,2
+tw_007,teamwork,communication_documentation,How well do you perform in knowledge sharing sessions?,1
+ss_628,soft_skills,analytical_thinking,How experienced are you with analytical thinking?,3
+sa_109,soft_skills,presentation_communication,How confident are you in presentation and communication?,1
+ss_610,soft_skills,analytical_thinking,How would you rate your analytical thinking abilities?,3
+sa_087,creativity,creative_thinking,How effectively can you perform connect seemingly unrelated concepts?,1
+sa_148,creativity,ux_design,How comfortable are you with designing for emerging interaction paradigms?,3
+sa_167,creativity,artistic_creativity,How often do you engage in creative visualization of complex data?,1
+ss_625,soft_skills,analytical_thinking,How often do you engage in analytical thinking?,2
+sa_092,soft_skills,critical_thinking,How well do you perform critical thinking?,2
+ss_084,soft_skills,adaptability_learning,How strong are your adaptability and learning capabilities?,1
+hs_087,hard_skills,data_structures_algorithms,How well do you perform in web framework implementation?,1
+sa_094,creativity,system_architecture,How confident are you in designing innovative system architectures?,1
+tw_223,teamwork,team_building,How often do you engage in group problem-solving?,3
+sa_090,soft_skills,time_management,How comfortable are you with crisis time planning?,3
+sa_132,hard_skills,database_management,How confident are you in designing and optimizing database schemas?,3
+sa_127,hard_skills,database_management,How confident are you in database management?,1
+hs_166,hard_skills,machine_learning,How confident are you in implementing microservices architecture?,2
+sa_184,creativity,artistic_creativity,How effectively can you perform inspire others through creative technical presentations?,3
+tw_078,teamwork,remote_collaboration,How often do you engage in peer mentoring?,3
+hs_183,hard_skills,artificial_intelligence,How often do you engage in API security implementation?,2
+hs_193,hard_skills,artificial_intelligence,How often do you engage in performance profiling?,1
+hs_062,hard_skills,mobile_development,How well do you perform in cloud infrastructure management?,3
+tw_056,teamwork,mentoring_teaching,How confident are you in managing team deadlines?,1
+sa_130,hard_skills,database_management,How comfortable are you with database management?,1
+hs_047,hard_skills,web_development,How well do you perform in cloud infrastructure management?,1
+ss_343,soft_skills,communication_skills,How confident are you in presenting to large groups?,3
+hs_037,hard_skills,devops_deployment,How well do you perform in code testing and debugging?,2
+tw_142,teamwork,knowledge_sharing,How well do you perform in knowledge sharing sessions?,1
+ss_001,soft_skills,time_management,How competent are you at time management?,1
+hs_203,hard_skills,blockchain,How often do you engage in system monitoring and logging?,1
+tw_222,teamwork,team_building,How well do you perform in collaborative planning?,1
+tw_053,teamwork,mentoring_teaching,How often do you engage in team building activities?,1
+sa_077,creativity,creative_thinking,How effectively can you perform connect seemingly unrelated concepts?,3
+ss_621,soft_skills,analytical_thinking,How well do you perform analytical thinking?,1
+sa_121,hard_skills,programming_languages,How comfortable are you with programming languages?,1
+tw_210,teamwork,delegation,How effectively can you perform build team consensus?,1
+hs_102,hard_skills,software_testing,How well do you perform in web framework implementation?,1
+ss_459,soft_skills,public_speaking,How skilled are you in public speaking?,3
+sa_125,hard_skills,programming_languages,How often do you engage in bridging knowledge gaps with teammates?,2
+ss_427,soft_skills,networking,How well do you perform networking?,2
+hs_199,hard_skills,blockchain,How comfortable are you with containerization technologies?,3
+hs_126,hard_skills,api_development,How confident are you in implementing CI/CD pipelines?,3
+ss_506,soft_skills,active_listening,How would you rate your active listening abilities?,2
+tw_018,teamwork,code_review_collaboration,How often do you engage in peer mentoring?,2
+ss_574,soft_skills,creativity_thinking,How proficient are you at creativity thinking?,3
+sa_146,hard_skills,testing_qa,How well do you perform testing and QA?,2
+ss_348,soft_skills,communication_skills,How confident are you in cross-cultural communication?,2
+ss_347,soft_skills,communication_skills,How effectively can you perform explain complex concepts?,1
+tw_127,teamwork,peer_feedback,How well do you perform in knowledge sharing sessions?,1
+tw_192,teamwork,consensus_building,How well do you perform in collaborative planning?,2
+ss_351,soft_skills,communication_skills,How effectively can you perform communication skills?,1
+ss_626,soft_skills,analytical_thinking,How proficient are you at analytical thinking?,3
+ss_234,soft_skills,decision_making,How competent are you at decision making?,3
+ss_657,soft_skills,strategic_planning,How experienced are you with strategic planning?,3
+hs_226,hard_skills,containerization,How confident are you in implementing microservices architecture?,2
+sa_148,hard_skills,testing_qa,How comfortable are you with testing and QA?,1
+sa_070,teamwork,leadership_mentoring,How well do you perform coaching peers?,1
+ss_581,soft_skills,creativity_thinking,How often do you engage in creativity thinking?,3
+sa_067,teamwork,leadership_mentoring,How comfortable are you with leadership mentoring?,1
+tw_175,teamwork,meeting_facilitation,How effectively can you perform coordinate multiple stakeholders?,3
+hs_033,hard_skills,devops_deployment,How often do you engage in API security implementation?,2
+hs_249,hard_skills,monitoring_logging,How comfortable are you with machine learning algorithms?,1
+hs_174,hard_skills,machine_learning,How comfortable are you with machine learning algorithms?,3
+tw_097,teamwork,conflict_mediation,How well do you perform in knowledge sharing sessions?,1
+hs_125,hard_skills,api_development,How effectively can you perform optimize database performance?,2
+tw_165,teamwork,cultural_sensitivity,How effectively can you perform build team consensus?,3
+hs_114,hard_skills,version_control,How comfortable are you with machine learning algorithms?,2
+tw_102,teamwork,conflict_mediation,How well do you perform in collaborative planning?,3
+hs_137,hard_skills,cloud_computing,How well do you perform in cloud infrastructure management?,1
+tw_132,teamwork,peer_feedback,How well do you perform in collaborative planning?,2
+sa_050,creativity,algorithm_design,How comfortable are you with designing self-adapting algorithms?,1
+ss_243,soft_skills,decision_making,How effectively can you perform decision making?,3
+hs_025,hard_skills,database_management,How effectively can you perform implement data encryption?,2
+sa_124,creativity,system_architecture,How confident are you in designing innovative system architectures?,1
+tw_035,teamwork,project_coordination,How effectively can you perform resolve team conflicts?,2
+sa_036,creativity,ux_design,How comfortable are you with designing accessible interfaces?,3
+tw_184,teamwork,consensus_building,How comfortable are you with remote team coordination?,2
+sa_135,creativity,ux_design,How confident are you in creating innovative user experience designs?,2
+tw_220,teamwork,team_building,How effectively can you perform coordinate multiple stakeholders?,1
+hs_016,hard_skills,database_management,How confident are you in implementing microservices architecture?,3
+hs_168,hard_skills,machine_learning,How often do you engage in API security implementation?,1
+hs_029,hard_skills,database_management,How comfortable are you with blockchain technology?,2
+sa_060,creativity,algorithm_design,How comfortable are you with designing self-adapting algorithms?,2
+tw_123,teamwork,peer_feedback,How often do you engage in peer mentoring?,2
+sa_113,soft_skills,presentation_communication,How effectively can you perform presentation and communication?,2
+tw_233,teamwork,collaborative_planning,How often do you engage in team building activities?,1
+hs_140,hard_skills,cloud_computing,How effectively can you perform optimize database performance?,2
+tw_034,teamwork,project_coordination,How comfortable are you with remote team coordination?,1
+tw_204,teamwork,delegation,How comfortable are you with giving peer feedback?,2
+hs_155,hard_skills,cybersecurity,How effectively can you perform optimize database performance?,3
+sa_171,creativity,artistic_creativity,How well do you perform when designing technical solutions with artistic flair?,2
+ss_159,soft_skills,emotional_intelligence,How well do you perform in social situations?,3
+ss_182,soft_skills,emotional_intelligence,How strong are your emotional intelligence capabilities?,2
+hs_251,hard_skills,monitoring_logging,How confident are you in mobile app development?,2
+sa_182,creativity,artistic_creativity,How often do you engage in creative expression through technology?,1
+sa_005,creativity,innovation_problem_solving,How effectively can you perform innovation problem solving?,2
+sa_069,teamwork,leadership_mentoring,How confident are you in supporting and mentoring teammates?,3
+hs_187,hard_skills,artificial_intelligence,How well do you perform in code testing and debugging?,1
+tw_203,teamwork,delegation,How often do you engage in team building activities?,2
+hs_198,hard_skills,blockchain,How often do you engage in API security implementation?,1
+tw_096,teamwork,conflict_mediation,How confident are you in leading project discussions?,3
+hs_177,hard_skills,machine_learning,How well do you perform in web framework implementation?,1
+hs_026,hard_skills,database_management,How confident are you in mobile app development?,3
+sa_063,creativity,creative_thinking,How confident are you in generating original ideas for technical challenges?,1
+hs_094,hard_skills,software_testing,How comfortable are you with containerization technologies?,1
+tw_073,teamwork,cross_functional_work,How often do you engage in group problem-solving?,1
+ss_314,soft_skills,self_motivation,How competent are you at self motivation?,3
+sa_043,teamwork,communication_documentation,How well do you perform maintaining clear documentation?,1
+sa_012,creativity,innovation_problem_solving,How well do you perform when generating creative alternatives to standard approaches?,3
+sa_033,creativity,ux_design,How confident are you in designing intuitive user experiences?,3
+sa_165,creativity,artistic_creativity,How confident are you in applying artistic principles to technical work?,2
+sa_099,creativity,system_architecture,How confident are you in creating flexible and adaptive architectures?,3
+sa_028,creativity,ux_design,How confident are you in UX design?,1
+sa_143,hard_skills,devops_deployment,How often do you engage in automating testing pipelines?,2
+ss_040,soft_skills,critical_thinking,How would you rate your critical thinking abilities?,3
+tw_187,teamwork,consensus_building,How well do you perform in knowledge sharing sessions?,1
+ss_193,soft_skills,problem_solving,How often do you engage in problem solving?,1
+ss_510,soft_skills,active_listening,How strong are your active listening capabilities?,3
+ss_537,soft_skills,empathy,How experienced are you with empathy?,2
+hs_119,hard_skills,version_control,How comfortable are you with blockchain technology?,3
+ss_416,soft_skills,conflict_resolution,How well do you perform conflict resolution?,1
+tw_179,teamwork,meeting_facilitation,How comfortable are you with team decision-making?,1
+tw_148,teamwork,knowledge_sharing,How often do you engage in group problem-solving?,3
+sa_103,creativity,system_architecture,How effectively can you perform balance architectural creativity with practical constraints?,1
+sa_027,creativity,innovation_problem_solving,How well do you perform when adapting existing solutions to new contexts?,3
+tw_120,teamwork,team_leadership,How effectively can you perform build team consensus?,3
+tw_094,teamwork,conflict_mediation,How comfortable are you with remote team coordination?,1
+sa_093,creativity,creative_thinking,How confident are you in generating original ideas for technical challenges?,1
+hs_234,hard_skills,containerization,How comfortable are you with machine learning algorithms?,1
+tw_119,teamwork,team_leadership,How comfortable are you with team decision-making?,2
+sa_029,creativity,innovation_problem_solving,How comfortable are you with ambiguous problems that require creative solutions?,2
+sa_015,creativity,algorithm_design,How confident are you in optimizing algorithm performance?,3
+sa_121,creativity,system_architecture,How often do you engage in architectural pattern innovation?,1
+sa_005,creativity,innovation_problem_solving,How effectively can you perform combine different ideas to create novel solutions?,2
+tw_195,teamwork,consensus_building,How effectively can you perform build team consensus?,1
+ss_474,soft_skills,public_speaking,How strong are your public speaking capabilities?,3
+sa_152,creativity,ux_design,How often do you engage in experimental design approaches?,1
+sa_139,hard_skills,devops_deployment,How comfortable are you with DevOps and deployment?,1
+sa_181,creativity,artistic_creativity,How well do you perform when designing technical solutions with artistic flair?,3
+sa_017,creativity,innovation_problem_solving,How well do you perform when adapting existing solutions to new contexts?,2
+ss_178,soft_skills,emotional_intelligence,How effectively can you perform emotional intelligence?,1
+hs_144,hard_skills,cloud_computing,How comfortable are you with machine learning algorithms?,1
+hs_194,hard_skills,artificial_intelligence,How comfortable are you with blockchain technology?,2
+hs_076,hard_skills,data_structures_algorithms,How confident are you in implementing microservices architecture?,1
+ss_269,soft_skills,stress_management,How skilled are you in stress management?,1
+hs_078,hard_skills,data_structures_algorithms,How often do you engage in API security implementation?,3
+ss_580,soft_skills,creativity_thinking,How effectively can you perform creativity thinking?,1
+hs_060,hard_skills,web_development,How effectively can you perform implement real-time systems?,3
+tw_069,teamwork,cross_functional_work,How comfortable are you with giving peer feedback?,1
+tw_177,teamwork,meeting_facilitation,How well do you perform in collaborative planning?,1
+sa_141,hard_skills,devops_deployment,How confident are you in automating deployment processes?,3
+ss_270,soft_skills,stress_management,How experienced are you with stress management?,3
+sa_166,creativity,artistic_creativity,How well do you perform when creating visually compelling technical solutions?,3
+sa_126,creativity,ux_design,How well do you perform when designing interfaces that surprise and delight users?,2
+tw_072,teamwork,cross_functional_work,How well do you perform in collaborative planning?,2
+hs_178,hard_skills,machine_learning,How often do you engage in performance profiling?,2
+ss_176,soft_skills,emotional_intelligence,How skilled are you in emotional intelligence?,2
+hs_138,hard_skills,cloud_computing,How often do you engage in API security implementation?,2
+sa_044,teamwork,communication_documentation,How often do you engage in documenting your work?,2
+hs_231,hard_skills,containerization,How confident are you in implementing CI/CD pipelines?,2
+sa_070,creativity,creative_thinking,How often do you engage in imaginative problem exploration?,2
+tw_209,teamwork,delegation,How comfortable are you with team decision-making?,3
+ss_615,soft_skills,analytical_thinking,How skilled are you in analytical thinking?,1
+sa_002,creativity,innovation_problem_solving,How well do you perform innovation problem solving?,2
+hs_204,hard_skills,blockchain,How comfortable are you with machine learning algorithms?,2
+tw_128,teamwork,peer_feedback,How often do you engage in team building activities?,1
+sa_045,creativity,algorithm_design,How comfortable are you with designing algorithms for emerging technologies?,2
+sa_170,creativity,artistic_creativity,How confident are you in using creative tools for technical communication?,1
+sa_035,creativity,ux_design,How often do you engage in balancing aesthetics with usability?,2
+hs_097,hard_skills,software_testing,How well do you perform in code testing and debugging?,1
+tw_012,teamwork,communication_documentation,How well do you perform in collaborative planning?,1
+ss_171,soft_skills,emotional_intelligence,How confident are you in emotional intelligence?,1
+tw_138,teamwork,knowledge_sharing,How often do you engage in peer mentoring?,2
+ss_123,soft_skills,leadership,How confident are you in leadership?,1
+sa_056,creativity,algorithm_design,How effectively can you perform create algorithms that solve previously unsolved problems?,1
+ss_544,soft_skills,empathy,How comfortable are you with empathy?,1
+tw_095,teamwork,conflict_mediation,How effectively can you perform resolve team conflicts?,1
+sa_104,soft_skills,adaptability_learning,How effectively can you perform adaptability and learning?,2
+hs_184,hard_skills,artificial_intelligence,How comfortable are you with containerization technologies?,1
+sa_101,soft_skills,adaptability_learning,How well do you perform adaptability and learning?,2
+sa_014,creativity,algorithm_design,How effectively can you perform designing algorithms?,2
+ss_194,soft_skills,problem_solving,How experienced are you with problem solving?,3
+tw_169,teamwork,meeting_facilitation,How comfortable are you with remote team coordination?,1
+ss_594,soft_skills,creativity_thinking,How competent are you at creativity thinking?,1
+ss_166,soft_skills,emotional_intelligence,How competent are you at emotional intelligence?,1
+sa_131,creativity,ux_design,How well do you perform when balancing usability with creative expression?,1
+hs_139,hard_skills,cloud_computing,How comfortable are you with containerization technologies?,3
+tw_241,teamwork,group_problem_solving,How confident are you in facilitating team meetings?,2
+hs_134,hard_skills,api_development,How comfortable are you with blockchain technology?,1
+tw_033,teamwork,project_coordination,How often do you engage in peer mentoring?,2
+hs_201,hard_skills,blockchain,How confident are you in implementing CI/CD pipelines?,3
+tw_129,teamwork,peer_feedback,How comfortable are you with giving peer feedback?,1
+hs_132,hard_skills,api_development,How well do you perform in web framework implementation?,1
+sa_110,soft_skills,presentation_communication,How well do you perform presentation and communication?,2
+sa_075,teamwork,agile_participation,How often do you engage in agile participation?,3
+tw_140,teamwork,knowledge_sharing,How effectively can you perform resolve team conflicts?,2
+hs_255,hard_skills,monitoring_logging,How effectively can you perform implement real-time systems?,1
+sa_154,creativity,ux_design,How effectively can you perform create emotionally engaging user experiences?,3
+sa_136,hard_skills,devops_deployment,How confident are you in DevOps and deployment?,1
+hs_058,hard_skills,web_development,How often do you engage in performance profiling?,2
+tw_075,teamwork,cross_functional_work,How effectively can you perform build team consensus?,3
+hs_270,hard_skills,performance_optimization,How effectively can you perform implement real-time systems?,2
+tw_064,teamwork,cross_functional_work,How comfortable are you with remote team coordination?,3
+sa_023,creativity,innovation_problem_solving,How often do you engage in brainstorming sessions for problem-solving?,2
+tw_171,teamwork,meeting_facilitation,How confident are you in leading project discussions?,1
+tw_011,teamwork,communication_documentation,How confident are you in managing team deadlines?,2
+hs_020,hard_skills,database_management,How effectively can you perform optimize database performance?,1
+sa_1068,soft_skills,communication,I am confident in my ability to my body language consistently matches the verbal message i am communicating.,3
+sa_022,creativity,system_architecture,How comfortable are you with system architecture design?,1
+ss_443,soft_skills,networking,How competent are you at networking?,3
+tw_121,teamwork,peer_feedback,How confident are you in facilitating team meetings?,1
+sa_125,creativity,ux_design,How confident are you in creating innovative user experience designs?,1
+ss_412,soft_skills,conflict_resolution,How skilled are you in conflict resolution?,2
+sa_156,creativity,artistic_creativity,How well do you perform when creating visually compelling technical solutions?,2
+ss_080,soft_skills,adaptability_learning,How would you rate your adaptability and learning abilities?,1
+hs_148,hard_skills,cloud_computing,How often do you engage in performance profiling?,3
+ss_613,soft_skills,analytical_thinking,How capable are you of analytical thinking?,2
+tw_100,teamwork,conflict_mediation,How effectively can you perform coordinate multiple stakeholders?,1
+ss_352,soft_skills,communication_skills,How comfortable are you with communication skills?,3
+hs_179,hard_skills,machine_learning,How comfortable are you with blockchain technology?,2
+sa_115,soft_skills,presentation_communication,How well do you perform adjusting style based on feedback?,1
+hs_229,hard_skills,containerization,How comfortable are you with containerization technologies?,3
+sa_095,creativity,system_architecture,How well do you perform when creating architectures for emerging use cases?,2
+hs_247,hard_skills,monitoring_logging,How well do you perform in code testing and debugging?,1
+sa_064,creativity,creative_thinking,How well do you perform when thinking outside conventional paradigms?,2
+ss_465,soft_skills,public_speaking,How confident are you in public speaking?,3
+sa_052,creativity,algorithm_design,How confident are you in designing efficient algorithms for novel problems?,3
+tw_104,teamwork,conflict_mediation,How comfortable are you with team decision-making?,2
+sa_084,soft_skills,time_management,How often do you engage in time management?,3
+sa_179,creativity,artistic_creativity,How effectively can you perform create technical solutions that are also beautiful?,1
+tw_237,teamwork,collaborative_planning,How well do you perform in collaborative planning?,1
+sa_086,creativity,creative_thinking,How comfortable are you with abstract thinking and conceptualization?,3
+tw_045,teamwork,project_coordination,How effectively can you perform build team consensus?,1
+sa_021,creativity,system_architecture,How often do you engage in system architecture design?,3
+hs_093,hard_skills,software_testing,How often do you engage in API security implementation?,2
+sa_036,creativity,algorithm_design,How effectively can you perform create algorithms that solve previously unsolved problems?,2
+sa_071,creativity,creative_thinking,How comfortable are you with uncertainty and open-ended challenges?,3
+ss_548,soft_skills,empathy,How confident are you in empathy?,1
+sa_147,hard_skills,testing_qa,How often do you engage in testing and QA?,3
+ss_310,soft_skills,self_motivation,How confident are you in self motivation?,1
+sa_067,creativity,creative_thinking,How effectively can you perform connect seemingly unrelated concepts?,2

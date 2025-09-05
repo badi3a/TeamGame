@@ -1,0 +1,152 @@
+    # 1=Strongly Disagree;2=Disagree;3=Neutral;4=Agree;5=Strongly Agree
+question_id,dimension,subdimension,question_text,target_year_level,response_scale
+sa_001,creativity,innovation_problem_solving,"How confident are you in innovation problem solving?",1,1-5
+sa_002,creativity,innovation_problem_solving,"How well do you perform innovation problem solving?",2,1-5
+sa_003,creativity,innovation_problem_solving,"How often do you engage in innovation problem solving?",3,1-5
+sa_004,creativity,innovation_problem_solving,"How comfortable are you with innovation problem solving?",1,1-5
+sa_005,creativity,innovation_problem_solving,"How effectively can you innovation problem solving?",2,1-5
+sa_006,creativity,innovation_problem_solving,"How confident are you in integrating feedback when solving problems creatively?",3,1-5
+sa_007,creativity,innovation_problem_solving,"How well do you perform integrating feedback in creative tasks?",1,1-5
+sa_008,creativity,innovation_problem_solving,"How often do you engage in generating multiple creative ideas?",2,1-5
+sa_009,creativity,innovation_problem_solving,"How comfortable are you with proposing alternative solutions?",3,1-5
+sa_010,creativity,algorithm_design,"How confident are you in algorithm design?",1,1-5
+sa_011,creativity,algorithm_design,"How well do you perform algorithm design?",2,1-5
+sa_012,creativity,algorithm_design,"How often do you engage in algorithm design?",3,1-5
+sa_013,creativity,algorithm_design,"How comfortable are you with algorithm design?",1,1-5
+sa_014,creativity,algorithm_design,"How effectively can you algorithm design?",2,1-5
+sa_015,creativity,algorithm_design,"How confident are you in optimizing algorithm performance?",3,1-5
+sa_016,creativity,algorithm_design,"How well do you perform explaining different algorithmic approaches?",1,1-5
+sa_017,creativity,algorithm_design,"How often do you engage in designing efficient algorithms under constraints?",2,1-5
+sa_018,creativity,algorithm_design,"How comfortable are you with explaining algorithms to others?",3,1-5
+sa_019,creativity,system_architecture,"How confident are you in system architecture?",1,1-5
+sa_020,creativity,system_architecture,"How well do you perform system architecture?",2,1-5
+sa_021,creativity,system_architecture,"How often do you engage in system architecture?",3,1-5
+sa_022,creativity,system_architecture,"How comfortable are you with system architecture?",1,1-5
+sa_023,creativity,system_architecture,"How effectively can you system architecture?",2,1-5
+sa_024,creativity,system_architecture,"How confident are you in organizing complex project architectures?",3,1-5
+sa_025,creativity,system_architecture,"How well do you perform incorporating security in architectures?",1,1-5
+sa_026,creativity,system_architecture,"How often do you engage in proposing maintainable system designs?",2,1-5
+sa_027,creativity,system_architecture,"How comfortable are you with scalable architecture planning?",3,1-5
+sa_028,creativity,ux_design,"How confident are you in ux design?",1,1-5
+sa_029,creativity,ux_design,"How well do you perform ux design?",2,1-5
+sa_030,creativity,ux_design,"How often do you engage in ux design?",3,1-5
+sa_031,creativity,ux_design,"How comfortable are you with ux design?",1,1-5
+sa_032,creativity,ux_design,"How effectively can you ux design?",2,1-5
+sa_033,creativity,ux_design,"How confident are you in designing intuitive user experiences?",3,1-5
+sa_034,creativity,ux_design,"How well do you perform gathering user feedback?",1,1-5
+sa_035,creativity,ux_design,"How often do you engage in balancing aesthetics with usability?",2,1-5
+sa_036,creativity,ux_design,"How comfortable are you with designing accessible interfaces?",3,1-5
+sa_037,teamwork,communication_documentation,"How confident are you in communication documentation?",1,1-5
+sa_038,teamwork,communication_documentation,"How well do you perform communication documentation?",2,1-5
+sa_039,teamwork,communication_documentation,"How often do you engage in communication documentation?",3,1-5
+sa_040,teamwork,communication_documentation,"How comfortable are you with communication documentation?",1,1-5
+sa_041,teamwork,communication_documentation,"How effectively can you communication documentation?",2,1-5
+sa_042,teamwork,communication_documentation,"How confident are you in structuring documentation for diverse audiences?",3,1-5
+sa_043,teamwork,communication_documentation,"How well do you perform maintaining clear documentation?",1,1-5
+sa_044,teamwork,communication_documentation,"How often do you engage in documenting your work?",2,1-5
+sa_045,teamwork,communication_documentation,"How comfortable are you with creating practical project documentation?",3,1-5
+sa_046,teamwork,code_review_collaboration,"How confident are you in code review collaboration?",1,1-5
+sa_047,teamwork,code_review_collaboration,"How well do you perform code review collaboration?",2,1-5
+sa_048,teamwork,code_review_collaboration,"How often do you engage in code review collaboration?",3,1-5
+sa_049,teamwork,code_review_collaboration,"How comfortable are you with code review collaboration?",1,1-5
+sa_050,teamwork,code_review_collaboration,"How effectively can you code review collaboration?",2,1-5
+sa_051,teamwork,code_review_collaboration,"How confident are you in giving constructive feedback on code quality?",3,1-5
+sa_052,teamwork,code_review_collaboration,"How well do you perform reviewing code for best practices?",1,1-5
+sa_053,teamwork,code_review_collaboration,"How often do you engage in addressing code issues diplomatically?",2,1-5
+sa_054,teamwork,code_review_collaboration,"How comfortable are you with mentoring during code reviews?",3,1-5
+sa_055,teamwork,conflict_resolution,"How confident are you in conflict resolution?",1,1-5
+sa_056,teamwork,conflict_resolution,"How well do you perform conflict resolution?",2,1-5
+sa_057,teamwork,conflict_resolution,"How often do you engage in conflict resolution?",3,1-5
+sa_058,teamwork,conflict_resolution,"How comfortable are you with conflict resolution?",1,1-5
+sa_059,teamwork,conflict_resolution,"How effectively can you conflict resolution?",2,1-5
+sa_060,teamwork,conflict_resolution,"How confident are you in navigating team conflicts effectively?",3,1-5
+sa_061,teamwork,conflict_resolution,"How well do you perform facilitating consensus?",1,1-5
+sa_062,teamwork,conflict_resolution,"How often do you engage in balancing individual and team priorities?",2,1-5
+sa_063,teamwork,conflict_resolution,"How comfortable are you with resolving disagreements?",3,1-5
+sa_064,teamwork,leadership_mentoring,"How confident are you in leadership mentoring?",1,1-5
+sa_065,teamwork,leadership_mentoring,"How well do you perform leadership mentoring?",2,1-5
+sa_066,teamwork,leadership_mentoring,"How often do you engage in leadership mentoring?",3,1-5
+sa_067,teamwork,leadership_mentoring,"How comfortable are you with leadership mentoring?",1,1-5
+sa_068,teamwork,leadership_mentoring,"How effectively can you leadership mentoring?",2,1-5
+sa_069,teamwork,leadership_mentoring,"How confident are you in supporting and mentoring teammates?",3,1-5
+sa_070,teamwork,leadership_mentoring,"How well do you perform coaching peers?",1,1-5
+sa_071,teamwork,leadership_mentoring,"How often do you engage in guiding team members?",2,1-5
+sa_072,teamwork,leadership_mentoring,"How comfortable are you with empowering others?",3,1-5
+sa_073,teamwork,agile_participation,"How confident are you in agile participation?",1,1-5
+sa_074,teamwork,agile_participation,"How well do you perform agile participation?",2,1-5
+sa_075,teamwork,agile_participation,"How often do you engage in agile participation?",3,1-5
+sa_076,teamwork,agile_participation,"How comfortable are you with agile participation?",1,1-5
+sa_077,teamwork,agile_participation,"How effectively can you agile participation?",2,1-5
+sa_078,teamwork,agile_participation,"How confident are you in facilitating agile ceremonies?",3,1-5
+sa_079,teamwork,agile_participation,"How well do you perform sprint planning?",1,1-5
+sa_080,teamwork,agile_participation,"How often do you engage in retrospectives?",2,1-5
+sa_081,teamwork,agile_participation,"How comfortable are you with adapting to change in agile workflows?",3,1-5
+sa_082,soft_skills,time_management,"How confident are you in time management?",1,1-5
+sa_083,soft_skills,time_management,"How well do you perform time management?",2,1-5
+sa_084,soft_skills,time_management,"How often do you engage in time management?",3,1-5
+sa_085,soft_skills,time_management,"How comfortable are you with time management?",1,1-5
+sa_086,soft_skills,time_management,"How effectively can you time management?",2,1-5
+sa_087,soft_skills,time_management,"How confident are you in prioritizing tasks under time pressure?",3,1-5
+sa_088,soft_skills,time_management,"How well do you perform balancing project milestones?",1,1-5
+sa_089,soft_skills,time_management,"How often do you engage in planning project deadlines?",2,1-5
+sa_090,soft_skills,time_management,"How comfortable are you with crisis time planning?",3,1-5
+sa_091,soft_skills,critical_thinking,"How confident are you in critical thinking?",1,1-5
+sa_092,soft_skills,critical_thinking,"How well do you perform critical thinking?",2,1-5
+sa_093,soft_skills,critical_thinking,"How often do you engage in critical thinking?",3,1-5
+sa_094,soft_skills,critical_thinking,"How comfortable are you with critical thinking?",1,1-5
+sa_095,soft_skills,critical_thinking,"How effectively can you critical thinking?",2,1-5
+sa_096,soft_skills,critical_thinking,"How confident are you in analyzing problems effectively?",3,1-5
+sa_097,soft_skills,critical_thinking,"How well do you perform evaluating complex solutions?",1,1-5
+sa_098,soft_skills,critical_thinking,"How often do you engage in systematic investigation?",2,1-5
+sa_099,soft_skills,critical_thinking,"How comfortable are you with root cause analysis?",3,1-5
+sa_100,soft_skills,adaptability_learning,"How confident are you in adaptability learning?",1,1-5
+sa_101,soft_skills,adaptability_learning,"How well do you perform adaptability learning?",2,1-5
+sa_102,soft_skills,adaptability_learning,"How often do you engage in adaptability learning?",3,1-5
+sa_103,soft_skills,adaptability_learning,"How comfortable are you with adaptability learning?",1,1-5
+sa_104,soft_skills,adaptability_learning,"How effectively can you adaptability learning?",2,1-5
+sa_105,soft_skills,adaptability_learning,"How confident are you in learning new tools under constraints?",3,1-5
+sa_106,soft_skills,adaptability_learning,"How well do you perform pivoting strategies when challenges arise?",1,1-5
+sa_107,soft_skills,adaptability_learning,"How often do you engage in quick upskilling?",2,1-5
+sa_108,soft_skills,adaptability_learning,"How comfortable are you with rapid learning in projects?",3,1-5
+sa_109,soft_skills,presentation_communication,"How confident are you in presentation communication?",1,1-5
+sa_110,soft_skills,presentation_communication,"How well do you perform presentation communication?",2,1-5
+sa_111,soft_skills,presentation_communication,"How often do you engage in presentation communication?",3,1-5
+sa_112,soft_skills,presentation_communication,"How comfortable are you with presentation communication?",1,1-5
+sa_113,soft_skills,presentation_communication,"How effectively can you presentation communication?",2,1-5
+sa_114,soft_skills,presentation_communication,"How confident are you in presenting technical ideas to diverse audiences?",3,1-5
+sa_115,soft_skills,presentation_communication,"How well do you perform adjusting style based on feedback?",1,1-5
+sa_116,soft_skills,presentation_communication,"How often do you engage in simplifying complex topics?",2,1-5
+sa_117,soft_skills,presentation_communication,"How comfortable are you with making presentations interactive?",3,1-5
+sa_118,hard_skills,programming_languages,"How confident are you in programming languages?",1,1-5
+sa_119,hard_skills,programming_languages,"How well do you perform programming languages?",2,1-5
+sa_120,hard_skills,programming_languages,"How often do you engage in programming languages?",3,1-5
+sa_121,hard_skills,programming_languages,"How comfortable are you with programming languages?",1,1-5
+sa_122,hard_skills,programming_languages,"How effectively can you programming languages?",2,1-5
+sa_123,hard_skills,programming_languages,"How confident are you in applying programming concepts to solve problems?",3,1-5
+sa_124,hard_skills,programming_languages,"How well do you perform writing clean and maintainable code?",1,1-5
+sa_125,hard_skills,programming_languages,"How often do you engage in bridging knowledge gaps with teammates?",2,1-5
+sa_126,hard_skills,programming_languages,"How comfortable are you with code refactoring?",3,1-5
+sa_127,hard_skills,database_management,"How confident are you in database management?",1,1-5
+sa_128,hard_skills,database_management,"How well do you perform database management?",2,1-5
+sa_129,hard_skills,database_management,"How often do you engage in database management?",3,1-5
+sa_130,hard_skills,database_management,"How comfortable are you with database management?",1,1-5
+sa_131,hard_skills,database_management,"How effectively can you database management?",2,1-5
+sa_132,hard_skills,database_management,"How confident are you in designing and optimizing database schemas?",3,1-5
+sa_133,hard_skills,database_management,"How well do you perform writing efficient SQL queries?",1,1-5
+sa_134,hard_skills,database_management,"How often do you engage in ensuring data integrity?",2,1-5
+sa_135,hard_skills,database_management,"How comfortable are you with data migration planning?",3,1-5
+sa_136,hard_skills,devops_deployment,"How confident are you in devops deployment?",1,1-5
+sa_137,hard_skills,devops_deployment,"How well do you perform devops deployment?",2,1-5
+sa_138,hard_skills,devops_deployment,"How often do you engage in devops deployment?",3,1-5
+sa_139,hard_skills,devops_deployment,"How comfortable are you with devops deployment?",1,1-5
+sa_140,hard_skills,devops_deployment,"How effectively can you devops deployment?",2,1-5
+sa_141,hard_skills,devops_deployment,"How confident are you in automating deployment processes?",3,1-5
+sa_142,hard_skills,devops_deployment,"How well do you perform ensuring environment consistency?",1,1-5
+sa_143,hard_skills,devops_deployment,"How often do you engage in automating testing pipelines?",2,1-5
+sa_144,hard_skills,devops_deployment,"How comfortable are you with managing deployment pipelines?",3,1-5
+sa_145,hard_skills,testing_qa,"How confident are you in testing qa?",1,1-5
+sa_146,hard_skills,testing_qa,"How well do you perform testing qa?",2,1-5
+sa_147,hard_skills,testing_qa,"How often do you engage in testing qa?",3,1-5
+sa_148,hard_skills,testing_qa,"How comfortable are you with testing qa?",1,1-5
+sa_149,hard_skills,testing_qa,"How effectively can you testing qa?",2,1-5
+sa_150,hard_skills,testing_qa,"How confident are you in writing and executing tests to ensure code quality?",3,1-5
