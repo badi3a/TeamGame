@@ -1,0 +1,66 @@
+name: quiz_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # CSV and File operations
+  csv: ^5.0.2
+  path: ^1.8.3
+  
+  # UI & State Management
+  flutter_svg: ^2.0.10+1
+  get: ^4.6.6
+  cupertino_icons: ^1.0.8
+  
+  # File & Storage
+  image_gallery_saver: ^2.0.3
+  path_provider: ^2.1.3
+  shared_preferences: ^2.0.0
+  
+  # Avatar & Customization
+  fluttermoji: ^1.0.2
+  
+  # Firebase (NO Firebase Storage - using Base64 only)
+  firebase_core: ^2.24.2
+  cloud_firestore: ^4.13.6
+  intl: ^0.20.2
+  
+  # Network & API
+  http: ^1.1.0
+  
+  # 3D Model Rendering (Cross-platform)
+  model_viewer_plus: ^1.7.2
+  flutter_staggered_animations: ^1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/avatar/
+    - assets/avatar/body/
+    - assets/avatar/eyes/
+    - assets/avatar/mouth/
+    - assets/avatar/nose/
+    - assets/avatar/clothing/
+    - assets/avatar/accessories/
+    - assets/avatar/facial hair/
+    - assets/avatar/head/accessories/
+    - assets/avatar/head/hair/long/
+    - assets/avatar/head/hair/short/
+    # 3D Models (GLB/FBX/OBJ formats supported)
+    - assets/models/
+    # JSON Data Files
+    - assets/data/
